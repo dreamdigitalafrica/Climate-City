@@ -30,3 +30,6 @@
 
 /* Use the supplied open transparent mark; tint only header marks for contrast. */
 header .brand-mark{background:transparent!important;border:0!important;box-shadow:none!important;filter:brightness(0) saturate(100%) invert(91%) sepia(37%) saturate(596%) hue-rotate(18deg) brightness(105%) contrast(99%)}
+
+/* Explorer-only homepage */
+:root{--forest:#191b1a;--cream:#f4f1e8;--gold:#ddd1af}#world{background:radial-gradient(ellipse at 60% 40%,#34433b 0,#252b28 45%,#171918 85%)}.topbar{display:flex;justify-content:space-between}.icon-button,#zoomIn,#zoomOut,#resetView{border-radius:50%;width:38px;height:38px}#zoomIn,#zoomOut,#resetView{display:inline-flex!important}.world-controls #rotate{border-radius:50%;width:44px;height:44px;font-size:9px}.view-switch{border-radius:12px}.world-controls{gap:7px}.brand>span{font-family:Arial,sans-serif!important;font-size:20px!important;font-weight:500}.journey-images img{filter:none}.journey-copy p{line-height:1.6}#loadingCurtain{background:#191b1a}@media(max-width:700px){.world-controls{left:5%;right:5%;justify-content:center}.world-controls .view-switch{margin-right:auto}.world-controls .icon-button{width:32px;height:32px}}
