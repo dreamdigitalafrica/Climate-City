@@ -42,3 +42,13 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 .pano-location .pin-name{display:block;background:#222820de;padding:7px 10px;border-radius:9px;font:12px Arial}
 .pano-location:hover .pin,.pano-location:focus-visible .pin{background:#d8c38f;color:#171918}
 .pnlm-load-box{background:#191b1ae6;color:#eee}.pnlm-hotspot-base:focus-within{z-index:3}
+
+/* Preserve original aerial pixels; keep contrast behind controls only. */
+.world-vignette{background:none}
+#aerial:after{display:none}
+#aerial,#aerial canvas{filter:none;image-rendering:auto}
+.topbar .brand{text-shadow:0 1px 5px #0009}
+.topbar .icon-button,.world-controls .icon-button{background:#202421e8;border-color:#ffffff50}
+
+.view-switch[hidden]{display:none!important}
+@media(max-width:700px){.world-controls{left:auto;right:5%;justify-content:flex-end}}
