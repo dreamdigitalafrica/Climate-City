@@ -33,3 +33,12 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 
 /* Explorer-only homepage */
 :root{--forest:#191b1a;--cream:#f4f1e8;--gold:#ddd1af}#world{background:radial-gradient(ellipse at 60% 40%,#34433b 0,#252b28 45%,#171918 85%)}.topbar{display:flex;justify-content:space-between}.icon-button,#zoomIn,#zoomOut,#resetView{border-radius:50%;width:38px;height:38px}#zoomIn,#zoomOut,#resetView{display:inline-flex!important}.world-controls #rotate{border-radius:50%;width:44px;height:44px;font-size:9px}.view-switch{border-radius:12px}.world-controls{gap:7px}.brand>span{font-family:Arial,sans-serif!important;font-size:20px!important;font-weight:500}.journey-images img{filter:none}.journey-copy p{line-height:1.6}#loadingCurtain{background:#191b1a}@media(max-width:700px){.world-controls{left:5%;right:5%;justify-content:center}.world-controls .view-switch{margin-right:auto}.world-controls .icon-button{width:32px;height:32px}}
+
+/* Spherical aerial viewer supplied with the Vistra reference. */
+#aerial.pnlm-container{position:absolute;inset:0;background:#191b1a;filter:none;touch-action:none}
+.city-hotspot{width:auto;height:auto;background:none;z-index:2}
+.pano-location{display:flex;align-items:center;gap:6px;white-space:nowrap;background:none;border:0;padding:5px;cursor:pointer;color:#f8f3de;transform:translate(-50%,-50%)}
+.pano-location .pin{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;border:1px solid #d8c38f;background:#222820e6;font:12px Arial}
+.pano-location .pin-name{display:block;background:#222820de;padding:7px 10px;border-radius:9px;font:12px Arial}
+.pano-location:hover .pin,.pano-location:focus-visible .pin{background:#d8c38f;color:#171918}
+.pnlm-load-box{background:#191b1ae6;color:#eee}.pnlm-hotspot-base:focus-within{z-index:3}

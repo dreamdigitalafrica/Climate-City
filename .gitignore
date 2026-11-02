@@ -6,3 +6,9 @@ dist/assets/*.jpg
 !dist/assets/masterplan.jpg
 
 !dist/assets/logo-*.png
+
+.DS_Store
+.vercel/
+!dist/assets/masterplan-panorama.png
+.vercel
+.env*

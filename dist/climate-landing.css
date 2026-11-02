@@ -62,3 +62,19 @@ html{scroll-padding-top:28px}body.climate-landing{font-weight:400;color:var(--co
 
 /* Use the supplied open transparent mark; tint only header marks for contrast. */
 header .brand-mark{background:transparent!important;border:0!important;box-shadow:none!important;filter:brightness(0) saturate(100%) invert(91%) sepia(37%) saturate(596%) hue-rotate(18deg) brightness(105%) contrast(99%)}
+
+/* Full-width film, retaining its original place in the page. */
+.virtual-tour-section{padding:0;background:#171918}
+.virtual-tour-panel{position:relative;width:100%;height: min(84vh,960px);min-height:480px;overflow:hidden;background:#171918}
+.city-film{display:block;width:100%;height:100%;object-fit:cover}
+.virtual-tour-panel.is-playing .city-film{object-fit:contain}
+.film-cover{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;border:0;width:100%;color:#fff;background:rgba(0,0,0,.27);cursor:pointer}
+.film-play-circle{display:grid;place-items:center;width:110px;height:110px;border:1px solid #ffffff60;border-radius:50%;background:#ffffff10;transition:background .2s,transform .2s}
+.film-play-circle svg{margin-left:5px}.film-cover:hover .film-play-circle{background:#ffffff25;transform:scale(1.05)}
+.film-label{font:400 20px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase}
+.film-error{position:absolute;bottom:65px;left:20px;right:20px;text-align:center;color:#fff;background:#191b1a;padding:12px}.film-error a{text-decoration:underline}
+.hero-overlay{background:linear-gradient(180deg,#191b1a88,transparent 40%,#191b1acc)}
+@media(max-width:700px){.virtual-tour-panel{height:65svh;min-height:360px;max-height:660px}.film-play-circle{width:84px;height:84px}.film-label{font-size:16px}.hero-content{padding-bottom:40px}}
+@media(prefers-reduced-motion:reduce){.film-play-circle{transition:none}}
+
+.landing-explorer{height:100svh;min-height:600px;background:#191b1a}.explorer-frame{border:0;width:100%;height:100%;display:block}body.climate-landing #main-header{display:none}.arrow-circle,.card-arrow{display:none!important}.pill-button{padding:16px 25px}.place-link b:empty{display:none}
