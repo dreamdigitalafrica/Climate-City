@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hospital",
+    "index": 1,
+    "title": "Welcome atrium",
+    "description": "A calm, light-filled arrival hall connects reception, comfortable waiting areas and a healing garden.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: hospital's grand welcoming reception atrium, clean seamless terrazzo floors, double-height timber acoustic ceiling, bronze reception desk towards center-right, sage-green waiting seats, healing garden visible through tall glass. Credible functional hospital design.",
+    "asset": "assets/hospital-1.png"
+  },
+  {
+    "id": "hospital",
+    "index": 2,
+    "title": "Patient suite",
+    "description": "A quiet patient room pairs clinical functionality with daylight and views of greenery.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an elegant private hospital patient suite with a proper adjustable medical bed, discreet headwall medical services, accessible ensuite door, visitor sofa, hygienic seamless finishes, clean cream walls and warm timber accents, generous garden-facing window. Clinically credible, peaceful, unoccupied, not a hotel bedroom.",
+    "asset": "assets/hospital-2.png"
+  },
+  {
+    "id": "hospital",
+    "index": 3,
+    "title": "Consultation rooms",
+    "description": "Welcoming consultation spaces support private conversations and everyday care.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a bright refined medical consultation room, examination couch, physician desk, ergonomic visitor chairs, handwash station, concealed storage, cleanable seamless floors, warm neutral walls and shaded garden window. Practical outpatient healthcare architecture, dignified calming atmosphere.",
+    "asset": "assets/hospital-3.png"
+  },
+  {
+    "id": "hospital",
+    "index": 4,
+    "title": "Diagnostic centre",
+    "description": "An orderly diagnostic suite balances patient comfort with clear clinical circulation.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a premium diagnostic imaging suite, a modern MRI machine centered on the right inside a large clean room, discreet warm wood-look wall panels outside clinical equipment clearances, soft indirect lighting, observation window to control room, uncluttered clean surfaces, realistic equipment geometry.",
+    "asset": "assets/hospital-4.png"
+  },
+  {
+    "id": "hospital",
+    "index": 5,
+    "title": "Rehabilitation studio",
+    "description": "A daylit rehabilitation studio supports movement and recovery.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a spacious hospital rehabilitation and physiotherapy studio with parallel walking bars, therapy plinths, resistance equipment, warm neutral rubber flooring, tall shaded windows onto a courtyard, comfortable waiting nook, accessible circulation and restrained timber ceiling accents. Clean functional therapeutic design.",
+    "asset": "assets/hospital-5.png"
+  },
+  {
+    "id": "hospital",
+    "index": 6,
+    "title": "Healing garden",
+    "description": "A sheltered courtyard offers patients and families a restorative pause.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: view from within a hospital's sheltered healing courtyard, warm stone colonnade, accessible gentle walking paths, lush native planting, shaded ergonomic benches, a still water rill, hospital windows overlooking courtyard, tranquil tropical Nigerian daylight, premium landscape architecture.",
+    "asset": "assets/hospital-6.png"
+  },
+  {
+    "id": "schools",
+    "index": 1,
+    "title": "Learning commons",
+    "description": "A welcoming learning commons brings shared study and informal gathering together.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an exceptionally beautiful school learning commons with timber stepped seating at center-right, warm cream walls, terracotta screens, flexible study tables, plants and wide shaded courtyard glazing, contemporary Nigerian educational campus, luminous inclusive architecture.",
+    "asset": "assets/schools-1.png"
+  },
+  {
+    "id": "schools",
+    "index": 2,
+    "title": "Library",
+    "description": "A generous library provides places for quiet reading, research and discovery.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a double-height school and community library interior, tall warm timber bookshelves, elegant mezzanine and staircase, reading desks, soft lounge seating, filtered daylight through terracotta lattice, garden views. Beautiful calm serious architecture, no readable book titles.",
+    "asset": "assets/schools-2.png"
+  },
+  {
+    "id": "schools",
+    "index": 3,
+    "title": "Science laboratory",
+    "description": "A practical science classroom encourages hands-on learning.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a premium secondary school science laboratory, clean durable workbenches with sinks and stools, safe unobstructed circulation, cupboards, simple glassware neatly arranged, warm timber ceiling, shaded daylight and garden view. Realistic educational facility, empty, no clutter, contemporary African architecture.",
+    "asset": "assets/schools-3.png"
+  },
+  {
+    "id": "schools",
+    "index": 4,
+    "title": "Digital studio",
+    "description": "A flexible digital studio supports practical skills and creative work.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a contemporary digital learning and maker studio, elegant computer workstations with blank dark displays, collaborative tables, a few enclosed 3D printers, warm timber acoustic ceiling, sage seating, cream stone walls, terracotta shading screens, daylight, clear paths.",
+    "asset": "assets/schools-4.png"
+  },
+  {
+    "id": "schools",
+    "index": 5,
+    "title": "Early-years classroom",
+    "description": "A bright early-years room connects playful learning to the garden.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a beautiful early-years classroom, child-scale timber furniture, rounded low bookshelves, soft sage and terracotta cushions, tactile learning areas, generous safe open floor, shaded glazing opening onto a protected green play courtyard. Calm sophisticated natural-material design, no children, no text.",
+    "asset": "assets/schools-5.png"
+  },
+  {
+    "id": "schools",
+    "index": 6,
+    "title": "Assembly hall",
+    "description": "A shaded gathering hall creates room for shared learning and performance.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a contemporary school assembly and performance hall with gently raked seating, warm wood acoustic wall panels inspired by abstract woven patterns, modest stage, cream side walls and clerestory daylight, beautiful Nigerian tropical-modern institutional architecture, no logos.",
+    "asset": "assets/schools-6.png"
+  },
+  {
+    "id": "sports",
+    "index": 1,
+    "title": "Sports atrium",
+    "description": "A welcoming atrium connects the centre's activity spaces.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an elegant sports centre entrance atrium, reception desk, generous circulation, bronze and timber details, warm sandstone columns, glimpse of indoor courts through glazing, green courtyard beyond, premium tropical-modern Nigerian recreation facility.",
+    "asset": "assets/sports-1.png"
+  },
+  {
+    "id": "sports",
+    "index": 2,
+    "title": "Indoor arena",
+    "description": "A flexible indoor arena provides space for community sport.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a beautiful indoor basketball and multipurpose sports arena, accurate polished timber court markings, clear-span laminated timber roof trusses, modest spectator bleachers, terracotta-colored acoustic walls, diffuse daylight from clerestories, empty, realistic geometry.",
+    "asset": "assets/sports-2.png"
+  },
+  {
+    "id": "sports",
+    "index": 3,
+    "title": "Aquatics hall",
+    "description": "A daylit pool hall connects swimming with views of the landscape.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an architectural indoor lap pool hall with six lanes, turquoise water, cream stone decks, timber roof beams, full-height shaded glazing toward lush tropical greenery, elegant clean changing-room entry at rear, believable sports facility, unoccupied.",
+    "asset": "assets/sports-3.png"
+  },
+  {
+    "id": "sports",
+    "index": 4,
+    "title": "Fitness studio",
+    "description": "A bright fitness studio supports everyday training.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a premium fitness gym with neatly aligned high-quality treadmills facing garden windows, free-weight zone, generous circulation, sage rubber floor, warm oak slatted ceiling, cream walls, filtered Nigerian daylight, luxurious but credible.",
+    "asset": "assets/sports-4.png"
+  },
+  {
+    "id": "sports",
+    "index": 5,
+    "title": "Movement studio",
+    "description": "A quieter studio provides room for stretching, dance and wellbeing.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a serene multipurpose movement and dance studio with warm timber floor, a mirrored wall, floor-to-ceiling shaded courtyard glazing, discreet wall-mounted barre, bronze accents, a few neatly rolled exercise mats, beautiful soft daylight and uncluttered proportions.",
+    "asset": "assets/sports-5.png"
+  },
+  {
+    "id": "sports",
+    "index": 6,
+    "title": "Players lounge",
+    "description": "A comfortable lounge gives athletes and visitors a place to recharge.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a sophisticated sports centre recovery and players lounge, sage upholstered seating, warm stone counter for refreshments, timber ceiling, terrace views to landscaped athletics grounds, contemporary African woven textile details, premium welcoming atmosphere, no screens with text.",
+    "asset": "assets/sports-6.png"
+  },
+  {
+    "id": "market",
+    "index": 1,
+    "title": "Market hall",
+    "description": "A generous covered hall brings local produce and everyday trade together.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an extraordinary covered fresh produce market hall with tall timber roof, terracotta ventilation screens, neat warm-stone stalls displaying Nigerian fruits and vegetables, wide clean shaded aisles, a few natural distant adult shoppers, warm daylight. Beautiful hygienic real market architecture.",
+    "asset": "assets/market-1.png"
+  },
+  {
+    "id": "market",
+    "index": 2,
+    "title": "Artisan arcade",
+    "description": "An artisan arcade gives craft and local enterprise a distinctive setting.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an elegant artisan market arcade lined with small open shops showing woven baskets, contemporary Nigerian ceramics and textiles, cream stone floors, timber columns, terracotta screens and warm lantern lighting, lush courtyard at the far end. No signs or text.",
+    "asset": "assets/market-2.png"
+  },
+  {
+    "id": "market",
+    "index": 3,
+    "title": "Food court",
+    "description": "A shaded dining hall creates a social heart for the market.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a beautifully designed market food hall, refined small food counters with warm timber fronts, communal wooden tables, terracotta tiled accents, indoor trees, high airy timber roof, clean uncluttered dining spaces, soft tropical daylight, no legible menus.",
+    "asset": "assets/market-3.png"
+  },
+  {
+    "id": "market",
+    "index": 4,
+    "title": "Demonstration kitchen",
+    "description": "A demonstration kitchen connects food, learning and local producers.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a beautiful market demonstration kitchen and culinary classroom, a central professional stainless and stone teaching island, timber spectator seating, warm cream walls, bronze pendants, shaded courtyard windows, hygienic surfaces, realistic equipment, no people.",
+    "asset": "assets/market-4.png"
+  },
+  {
+    "id": "market",
+    "index": 5,
+    "title": "Retail courtyard",
+    "description": "A planted courtyard links shaded shopping streets.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an interior-facing courtyard in a premium Nigerian market complex, terracotta-screened balconies above artisan storefronts, a mature shade tree, warm sandstone paving, elegant benches, lush planting, open arcades, morning light, coherent tropical-modern architecture.",
+    "asset": "assets/market-5.png"
+  },
+  {
+    "id": "market",
+    "index": 6,
+    "title": "Local goods gallery",
+    "description": "A curated retail space presents locally made products.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a refined indoor Nigerian craft and local goods store, contemporary ceramics, folded textiles and woven accessories displayed on elegant oak shelving and cream plinths, warm stone floor, timber ceiling, terracotta lattice daylight, culturally grounded luxury retail, no labels.",
+    "asset": "assets/market-6.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 1,
+    "title": "Diplomatic reception",
+    "description": "A dignified reception hall welcomes international exchange.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a magnificent diplomatic village reception atrium with warm sandstone, timber coffered ceiling, bronze reception desk, abstract contemporary African sculpture, terracotta lattice screens, garden views, poised understated luxury, no national flags or emblems.",
+    "asset": "assets/diplomatic-1.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 2,
+    "title": "Council chamber",
+    "description": "A flexible meeting chamber supports dialogue and collaboration.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: an elegant international conference council chamber, oval timber meeting table with understated microphones, comfortable sage chairs, warm acoustic wood walls with abstract woven relief, cream stone floors, filtered daylight, no flags, no logos, no text.",
+    "asset": "assets/diplomatic-2.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 3,
+    "title": "Exchange pavilion",
+    "description": "A cultural exchange pavilion creates a place for exhibitions and encounters.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a beautiful diplomatic cultural exchange gallery pavilion, airy warm-stone interior with flexible sculptural display plinths, contemporary African artworks, timber roof, shaded glazing onto tropical gardens, subtle bronze detailing, no wall labels, polished but welcoming.",
+    "asset": "assets/diplomatic-3.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 4,
+    "title": "Research library",
+    "description": "A quiet research library supports learning across cultures.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a diplomatic research library and reading room, rich timber bookshelves, long elegant reading table, individual shaded study alcoves, warm cream walls, terracotta geometric window screens, bronze reading lamps, serene premium scholarly architecture, no readable titles.",
+    "asset": "assets/diplomatic-4.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 5,
+    "title": "Delegates lounge",
+    "description": "A comfortable lounge offers informal space for visiting delegates.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: a sophisticated diplomatic delegates lounge, curved sage sofas, bronze and stone coffee tables, abstract African woven wall art, warm timber ceiling, full-height shaded garden glazing, intimate conversation zones, understated exceptional hospitality.",
+    "asset": "assets/diplomatic-5.png"
+  },
+  {
+    "id": "diplomatic",
+    "index": 6,
+    "title": "Peace courtyard",
+    "description": "A planted courtyard provides a calm setting between meetings.",
+    "prompt": "Use case: stylized-concept. One exceptionally beautiful photoreal architectural interior visualization for Climate City, proposed sustainable community in Nasarawa Nigeria. Unified contemporary African tropical-modern architecture: warm cream sandstone and rammed-earth accents, terracotta perforated screens, timber ceilings, bronze detailing, lush tropical gardens outside. Refined premium believable architecture, beautiful daylight and realistic tactile materials. Wide landscape 16:9 cinematic composition, eye-level 24mm architectural photography, main subject center-right with breathing room at left for website copy. No lettering, no logos, no watermark, no collage, no UI. Coherent geometry, exceptionally high quality. Scene: view from inside a diplomatic village peace courtyard, warm sandstone colonnades, terracotta patterned screens, elegant reflection pool, mature trees, native planting, shaded seating, contemporary Nigerian civic architecture, serene beautiful afternoon light, no flags.",
+    "asset": "assets/diplomatic-6.png"
+  }
+]

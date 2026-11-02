@@ -1,0 +1,8 @@
+source-art/
+scripts/
+*.tar.gz
+dist/assets/*.png
+dist/assets/*.jpg
+!dist/assets/masterplan.jpg
+
+!dist/assets/logo-*.png

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "museum",
+    "index": 1,
+    "title": "Grand arrival atrium",
+    "description": "A monumental welcome pairs a sculptural staircase with filtered daylight and contemporary African art.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 1, Grand arrival atrium. A spectacular double-height museum entrance atrium, colossal carved timber portal on right, sculptural staircase, bronze abstract contemporary African sculpture, pale stone floor, generous circulation, filtered sunlight through terracotta patterned screens. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-1.png"
+  },
+  {
+    "id": "museum",
+    "index": 2,
+    "title": "African heritage galleries",
+    "description": "Carefully lit displays connect material culture, craftsmanship and a landscaped courtyard.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 2, African heritage galleries. A refined gallery of African material culture: carefully lit glass vitrines with ceramics, woven textiles and abstract sculptural artefacts, respectful contemporary curatorial treatment, warm stone walls, terracotta screened courtyard glimpses, generous museum-grade space. No real historic artefact attribution. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-2.png"
+  },
+  {
+    "id": "museum",
+    "index": 3,
+    "title": "Contemporary art hall",
+    "description": "Generous galleries celebrate contemporary creativity through art, textiles and changing exhibitions.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 3, Contemporary art hall. A magnificent contemporary African art gallery, large colorful abstract canvases and an elegant suspended textile installation, restrained pale walls, timber roof ribs, polished warm terrazzo, strong axial perspective, warm skylight. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-3.png"
+  },
+  {
+    "id": "museum",
+    "index": 4,
+    "title": "Immersive storytelling theatre",
+    "description": "An intimate theatre surrounds visitors with moving landscapes, sound and shared stories.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 4, Immersive storytelling theatre. A beautiful museum immersive storytelling room with curved subtly glowing screens displaying abstract African landscapes and patterns, tiered timber benches, acoustic terracotta wall reliefs, dark bronze ceiling, intimate amber light, premium museum exhibition design. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-4.png"
+  },
+  {
+    "id": "museum",
+    "index": 5,
+    "title": "Living craft studio",
+    "description": "A working atelier brings weaving, ceramics and hands-on learning into the museum experience.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 5, Living craft studio. An airy museum craft atelier with textile looms, ceramics worktables, shelving of clay vessels, woven shade pendants, handmade stools, glazed doors to an indigenous planted courtyard. Polished contemporary African craftsmanship, inviting daylight. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-5.png"
+  },
+  {
+    "id": "museum",
+    "index": 6,
+    "title": "Research library",
+    "description": "A serene reading room connects research, archives and quiet study with views of the gardens.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 6, Research library. An exceptional museum research library and archive reading room, double height timber bookshelves, shaded clerestory windows, curved reading desks, deep green upholstered chairs, bronze reading lights, serene view to sculptural garden. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-6.png"
+  },
+  {
+    "id": "museum",
+    "index": 7,
+    "title": "Sculpture courtyard and caf\u00e9",
+    "description": "Art, shade and hospitality meet in an open courtyard beside the museum caf\u00e9.",
+    "prompt": "Use case: stylized-concept. Create ONE wide 16:9 premium photoreal architectural visualisation for the proposed Climate City African cultural museum in Nasarawa Nigeria. Image 7, Sculpture courtyard and caf\u00e9. A museum interior-outdoor sculpture courtyard with monumental abstract bronze sculpture, shaded sandstone colonnades, terracotta geometric screens, lush planted trees, elegant museum cafe seating under deep timber canopy, beautiful late afternoon light. Match the supplied exterior reference in architectural DNA: warm sandstone and rammed earth, terracotta geometric screens, broad timber eaves, bronze details, lush indigenous planting, sophisticated contemporary African design. This must feel like the interior of the SAME museum. Eye-level wide architectural photography, natural proportions, extraordinary but buildable design, understated luxury, realistic material texture. Main focal architecture slightly right of center with a calm left third suitable for separate website overlay. No text, no labels, no logos, no watermarks, no collage. Sparse visitors only if useful for scale. Reference is style/architecture guidance, not an edit target.",
+    "asset": "assets/museum-7.png"
+  }
+]

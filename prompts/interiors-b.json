@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hotel",
+    "number": 1,
+    "title": "Arrival hall",
+    "description": "A monumental welcoming lobby with crafted sandstone, timber ceilings and a view towards the water.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: magnificent double-height hotel reception lobby, sculptural sandstone desk, timber coffered ceiling, woven pendant lights, long lake view.",
+    "asset": "assets/hotel-1.png"
+  },
+  {
+    "id": "hotel",
+    "number": 2,
+    "title": "Lake-view suite",
+    "description": "A restful guest suite opens towards the landscape through deep shaded glazing.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: exceptionally beautiful luxury guest suite, king bed with woven cream headboard, warm sandstone, timber slat ceiling, terracotta accents, generous lounge and balcony overlooking lake, refined contemporary Nigerian art.",
+    "asset": "assets/hotel-2.png"
+  },
+  {
+    "id": "hotel",
+    "number": 3,
+    "title": "Signature restaurant",
+    "description": "Warm light, local materials and generous views shape a destination dining room.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: fine dining hotel restaurant interior, beautifully set round tables, bronze pendants, timber ribs, terracotta lattice, sculptural central tree courtyard, lake view, contemporary African craft.",
+    "asset": "assets/hotel-3.png"
+  },
+  {
+    "id": "hotel",
+    "number": 4,
+    "title": "Wellness sanctuary",
+    "description": "A quiet spa combines warm stone, filtered daylight and sheltered garden views.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: luxury hotel spa interior, tranquil indoor hydrotherapy pool, sandstone vaults, filtered lattice light, timber loungers, plants, calm garden view, no people.",
+    "asset": "assets/hotel-4.png"
+  },
+  {
+    "id": "hotel",
+    "number": 5,
+    "title": "Evening lounge",
+    "description": "An intimate lounge celebrates contemporary African art and craftsmanship.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: sophisticated hotel lounge at blue hour, warm bronze lighting, sculptural African contemporary artwork, plush olive and cream sofas, timber paneling, sandstone hearth, wide lake windows.",
+    "asset": "assets/hotel-5.png"
+  },
+  {
+    "id": "hotel",
+    "number": 6,
+    "title": "Garden courtyard",
+    "description": "An open-air heart brings shade, greenery and still water into the hotel.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: hotel inner courtyard, mature shade tree, shallow reflecting pool, stone stepping paths, terracotta screened galleries and shaded seating, beautiful contemporary tropical architecture.",
+    "asset": "assets/hotel-6.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 1,
+    "title": "Nature arrival pavilion",
+    "description": "An airy visitor pavilion introduces the landscape and its conservation story.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: wildlife conservation visitor centre interior, airy timber roof, rammed-earth walls, sculptural reception counter, observation windows towards African savanna with low rocky hills, elegant natural history exhibits without readable text.",
+    "asset": "assets/wildlife-1.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 2,
+    "title": "Ecology gallery",
+    "description": "A gallery creates space to discover habitats, species and landscape restoration.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: conservation centre ecology exhibition gallery interior, beautiful timber-framed glass cases with botanical specimens and sculptural habitat models, natural textures, skylit sandstone walls, no taxidermy, no readable labels.",
+    "asset": "assets/wildlife-2.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 3,
+    "title": "Observation hide",
+    "description": "A quiet timber hide frames long views over a protected habitat.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: luxurious yet low impact birdwatching observation hide interior, timber slatted walls, long narrow viewing windows, built-in benches and binoculars, beautiful wetland and antelope far outside, warm daylight.",
+    "asset": "assets/wildlife-3.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 4,
+    "title": "Learning studio",
+    "description": "A hands-on learning space connects visitors with conservation practice.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: conservation learning studio interior, broad wooden tables, botanical samples, microscopes and nature journals, terracotta walls, large windows to native woodland, restrained natural science exhibit.",
+    "asset": "assets/wildlife-4.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 5,
+    "title": "Habitat boardwalk",
+    "description": "Raised paths allow visitors to explore while protecting sensitive ground.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: elevated timber boardwalk through native savanna woodland and wetland, shaded by broad trees, elegant railings, low terracotta pavilion in distance, rocky Nasarawa landscape, African family at a distance.",
+    "asset": "assets/wildlife-5.png"
+  },
+  {
+    "id": "wildlife",
+    "number": 6,
+    "title": "Lookout terrace",
+    "description": "A sheltered terrace offers a slow encounter with the surrounding landscape.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: conservation visitor terrace under latticed timber roof, warm stone and timber seating, generous view to waterhole with small antelope far away, native woodland and rocky hills, golden light.",
+    "asset": "assets/wildlife-6.png"
+  },
+  {
+    "id": "landscape",
+    "number": 1,
+    "title": "The central green",
+    "description": "A generous shared lawn forms the civic heart of the landscape.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: breathtaking central city park, broad lawn, mature tropical shade trees, curved warm stone paths, low modern terracotta buildings and planted balconies around edges, African visitors at a distance, morning sunlight.",
+    "asset": "assets/landscape-1.png"
+  },
+  {
+    "id": "landscape",
+    "number": 2,
+    "title": "Shaded neighbourhood walk",
+    "description": "Tree-lined paths connect homes and everyday destinations.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful pedestrian street in climate-responsive African neighbourhood, deep continuous tree canopy, sandstone paving, rammed-earth homes with timber balconies, planted rain gardens, bicycles, a few African residents.",
+    "asset": "assets/landscape-2.png"
+  },
+  {
+    "id": "landscape",
+    "number": 3,
+    "title": "Rain garden",
+    "description": "A planted drainage corridor turns everyday infrastructure into a landscape experience.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: exceptionally beautiful rain garden landscape, natural stone swales, lush native grasses, flowering planting, timber footbridge, terracotta community buildings beyond, elegant sustainable landscape design.",
+    "asset": "assets/landscape-3.png"
+  },
+  {
+    "id": "landscape",
+    "number": 4,
+    "title": "Sculpture garden",
+    "description": "Art and landscape meet along an intimate sequence of outdoor rooms.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: contemporary African sculpture garden, large abstract bronze and stone sculptures, winding ochre paths, mature trees, ornamental native grasses, sandstone museum walls behind, dappled light.",
+    "asset": "assets/landscape-4.png"
+  },
+  {
+    "id": "landscape",
+    "number": 5,
+    "title": "Botanical walk",
+    "description": "Layered planting and shaded pavilions invite leisurely exploration.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful botanical garden in Nigeria, layered tropical and savanna planting, shaded timber pergolas, stone paths, terracotta seating walls, warm late afternoon light, elegant planted pavilion.",
+    "asset": "assets/landscape-5.png"
+  },
+  {
+    "id": "landscape",
+    "number": 6,
+    "title": "Sunset overlook",
+    "description": "An elevated viewpoint reveals the city within its wider landscape.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: landscaped hilltop overlook in Nasarawa Nigeria, broad timber viewing deck, sculptural sandstone benches, distant coherent warm-earth low rise green city and lake, rocky hills, sunset cinematic atmosphere.",
+    "asset": "assets/landscape-6.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 1,
+    "title": "Lakeside promenade",
+    "description": "A shaded public edge connects the hotel and waterfront destinations.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful hotel waterfront promenade beside calm freshwater lake, warm stone paving, shade trees, terracotta and sandstone resort buildings, timber pergolas, elegant low railing, African visitors far away, rocky green hills.",
+    "asset": "assets/waterfront-1.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 2,
+    "title": "Dining terrace",
+    "description": "An outdoor dining terrace opens directly to the water.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: exceptional luxury hotel outdoor lakeside dining terrace, beautifully laid tables under timber pergola, woven pendant lights, terracotta screens, soft sunset reflected on freshwater lake, lush planting.",
+    "asset": "assets/waterfront-2.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 3,
+    "title": "Water garden",
+    "description": "A sheltered garden brings the lake atmosphere close to the hotel.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful hotel waterfront water garden, stepped sandstone terraces, small reflecting pools, native grasses, timber lounge pavilions, lake and low rocky hills beyond, calm morning.",
+    "asset": "assets/waterfront-3.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 4,
+    "title": "Arrival jetty",
+    "description": "A modest jetty forms a distinctive waterfront arrival point.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: elegant low impact timber hotel jetty and shaded sandstone arrival pavilion on freshwater lake, small electric leisure boat moored, terracotta roof detail, lush shore, stunning golden hour.",
+    "asset": "assets/waterfront-4.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 5,
+    "title": "Sunset pavilion",
+    "description": "A quiet pavilion offers a place to pause at the water’s edge.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: contemporary African waterfront sunset pavilion, sculptural timber roof on sandstone columns, built-in soft seating, bronze details, planted shore, calm lake and hills, warm lanterns, exceptionally beautiful.",
+    "asset": "assets/waterfront-5.png"
+  },
+  {
+    "id": "waterfront",
+    "number": 6,
+    "title": "Pool terrace",
+    "description": "The hotel’s outdoor leisure spaces look towards the landscape.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful luxury hotel infinity-edge swimming pool terrace overlooking freshwater lake, sandstone pool coping, timber shade pergolas, woven loungers, terracotta resort building, lush trees, afternoon light, no people.",
+    "asset": "assets/waterfront-6.png"
+  },
+  {
+    "id": "station",
+    "number": 1,
+    "title": "Arrival hall",
+    "description": "A light-filled station hall creates a welcoming civic gateway.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: conceptual Nigerian railway station grand arrival hall, elegant glulam timber roof and skylights, warm sandstone piers, terracotta ventilation screens, polished stone floor, integrated trees, ticket counters, no readable text.",
+    "asset": "assets/station-1.png"
+  },
+  {
+    "id": "station",
+    "number": 2,
+    "title": "Shaded platforms",
+    "description": "Deep canopies create comfortable, clearly arranged boarding spaces.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: conceptual rail station platform, elegant timber and steel canopy, warm terracotta columns, clean modern passenger train standing to right, safety tactile paving, lush garden beyond, no logos or readable text.",
+    "asset": "assets/station-2.png"
+  },
+  {
+    "id": "station",
+    "number": 3,
+    "title": "Passenger lounge",
+    "description": "A comfortable waiting lounge combines daylight, shade and crafted finishes.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful contemporary railway passenger lounge interior, generous cream and olive seating, timber acoustic ceiling, terracotta lattices, sandstone floor, large windows to planted courtyard, premium civic architecture.",
+    "asset": "assets/station-3.png"
+  },
+  {
+    "id": "station",
+    "number": 4,
+    "title": "Garden concourse",
+    "description": "A planted concourse brings the character of Climate City into the journey.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: light filled railway station concourse with indoor tropical garden, timber beams, bronze rails, sandstone floors, wide intuitive circulation, daylight from long roof openings, no readable signage.",
+    "asset": "assets/station-4.png"
+  },
+  {
+    "id": "station",
+    "number": 5,
+    "title": "Station café",
+    "description": "A relaxed café offers a place to meet before the journey.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: beautiful railway station cafe interior, sculptural warm sandstone counter, terracotta tiled walls, timber and woven chairs, bronze pendant lighting, generous windows to landscaped station plaza, no logos.",
+    "asset": "assets/station-5.png"
+  },
+  {
+    "id": "station",
+    "number": 6,
+    "title": "Civic forecourt",
+    "description": "A landscaped arrival plaza connects rail, walking and local mobility.",
+    "prompt": "Create ONE exceptionally beautiful photorealistic architectural visualization for Climate City, a conceptual sustainable city in Nasarawa Nigeria. Single wide landscape 16:9 image, high-end architectural photography, natural realistic materials and scale. Coherent contemporary African tropical modernism: warm sandstone, rammed earth, terracotta geometric ventilation screens, timber, restrained bronze, lush native greenery. Harmonious with reference brochure's warm earth buildings, rocky green hills and freshwater landscape. Main architectural subject center-right with quieter left third for website description overlay. No text, labels, logos, watermark, collage or split screen. Scene: breathtaking conceptual Nigerian railway station exterior and forecourt, low monumental terracotta and sandstone building, sweeping timber roof, solar canopy, lush shade trees, pedestrian paving, low hills background, no text.",
+    "asset": "assets/station-6.png"
+  }
+]
