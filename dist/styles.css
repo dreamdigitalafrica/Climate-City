@@ -68,3 +68,6 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 .static-hero .topbar,.static-hero #overview{display:none!important}.static-hero .marker:disabled{opacity:1;cursor:default}.static-hero #world,.static-hero #map{cursor:default;pointer-events:none}
 
 .embedded .world-controls{display:none!important}.marker .pin{width:38px;height:38px;min-width:38px;color:#f5e6bc;background:#192d27;border:1px solid #f1ddb1;box-shadow:0 3px 12px #0004}.marker .pin-name{border-radius:10px;padding:9px 12px}.marker:hover .pin,.marker:focus-visible .pin{background:#e4ce9d;color:#142b25;transform:translateY(-2px)}
+
+/* Compact visible markers with a generous touch target. */
+.marker{gap:4px;min-height:44px;padding:8px 0}.marker .pin{width:26px;height:26px;min-width:26px}.marker .pin svg{width:14px;height:14px}.marker .pin-name{font-size:10px;padding:6px 8px;border-radius:7px}.marker:before{content:'';position:absolute;left:-9px;top:0;width:44px;height:44px}.marker.featured .pin{width:28px;height:28px;min-width:28px}
