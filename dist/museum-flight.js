@@ -1,5 +1,6 @@
 /* Museum arrival pilot: click to play, wheel/swipe to scrub, then reveal rooms. */
 (()=>{
+ if(new URLSearchParams(location.search).has("static"))return;
  const portrait=matchMedia('(max-width:700px)').matches;
  const layer=document.createElement('section');layer.className='museum-flight';layer.hidden=true;layer.setAttribute('aria-label','Museum arrival flight');
  const video=document.createElement('video');video.muted=true;video.playsInline=true;video.preload='auto';video.poster='assets/city-locator-4k.jpg';video.src=portrait?'assets/museum-flight-mobile.mp4':'assets/museum-flight-desktop.mp4';
