@@ -150,7 +150,16 @@ journey.addEventListener('wheel',e=>{
 },{passive:false});
 function goImage(i){i=clamp(i,0,activeImages.length-1);setJourneyTarget(i)}
 $('#previousImage').onclick=()=>goImage(activeIndex-1);$('#nextImage').onclick=()=>goImage(activeIndex+1);
-async function enter(id){if(entering)return;const d=destinations.find(x=>x.id===id);if(!d)return;toggleMenu(false);if(selected){selected=null;journey.hidden=true}window.parent.postMessage({type:'climate-journey',open:true},location.origin);entering=true;previousFocus=document.activeElement;document.body.classList.add('entering');$('#enterName').textContent=d.title;auto=false;if(panoramaReady&&mode==='aerial'){panorama.stopAutoRotate();const pos=panoPositions[d.id];panorama.lookAt(pos.pitch,pos.yaw,70,reduce?0:900);}const start={...camera};const at=performance.now();const duration=reduce?0:900;
+let museumFlightPending=false;
+async function enter(id){
+ if(entering||museumFlightPending)return;
+ if(id!=='museum'||reduce||!window.MuseumFlight)return enterRooms(id);
+ museumFlightPending=true;const focus=document.activeElement;toggleMenu(false);
+ window.parent.postMessage({type:'climate-journey',open:true},location.origin);
+ try{const arrived=await window.MuseumFlight.play();if(arrived)await enterRooms(id,true);else{window.parent.postMessage({type:'climate-journey',open:false},location.origin);focus?.focus()}}
+ finally{window.MuseumFlight.hide();museumFlightPending=false}
+}
+async function enterRooms(id,skipIntro=false){if(entering)return;const d=destinations.find(x=>x.id===id);if(!d)return;toggleMenu(false);if(selected){selected=null;journey.hidden=true}window.parent.postMessage({type:'climate-journey',open:true},location.origin);entering=true;previousFocus=document.activeElement;document.body.classList.add('entering');$('#enterName').textContent=d.title;auto=false;if(panoramaReady&&mode==='aerial'){panorama.stopAutoRotate();const pos=panoPositions[d.id];panorama.lookAt(pos.pitch,pos.yaw,70,reduce?0:900);}const start={...camera};const at=performance.now();const duration=reduce||skipIntro?0:900;
  await new Promise(resolve=>{function step(now){dirty=true;const p=duration?Math.min(1,(now-at)/duration):1,e=1-Math.pow(1-p,3);if(mode==='3d'){camera.tx=start.tx+(d.x-start.tx)*e;camera.tz=start.tz+(d.z-start.tz)*e;camera.distance=start.distance+(47-start.distance)*e;camera.pitch=start.pitch+(.4-start.pitch)*e}else if(!panoramaReady){$('#aerial').style.transformOrigin=`${d.u}% ${d.v}%`;$('#aerial').style.transform=`scale(${1+e*.15})`}if(p>.55)$('#loadingCurtain').classList.add('active');if(p<1)requestAnimationFrame(step);else resolve()}requestAnimationFrame(step)});
  selected=d;activeImages=d.images.length?d.images:[{src:masterplan,title:d.eyebrow,description:d.description}];activeIndex=-1;srcA='';srcB='';$('#destinationName').textContent=d.title;$('#journeyDots').replaceChildren();activeImages.forEach((a,i)=>{const b=document.createElement('button');b.setAttribute('aria-label',`View ${i+1}: ${a.title||d.title}`);b.onclick=()=>goImage(i);$('#journeyDots').append(b)});journey.hidden=false;syncJourneyHeight();journey.scrollTop=0;targetProgress=0;renderedProgress=0;lastJourneyTime=0;if(journeyFrame)cancelAnimationFrame(journeyFrame);journeyFrame=0;paintJourney(0);$('#scrollHint').innerHTML=(mobile?'Swipe':'Scroll')+' to explore';$('#backToCity').focus();await new Promise(r=>setTimeout(r,reduce?0:80));$('#loadingCurtain').classList.remove('active');entering=false;document.body.classList.remove('entering');history.replaceState(null,'','#'+d.id)
 }
