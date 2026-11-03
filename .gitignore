@@ -14,3 +14,5 @@ dist/assets/*.jpg
 .env*
 
 !dist/assets/city-locator-8k.jpg
+
+!dist/assets/city-locator-web.jpg
