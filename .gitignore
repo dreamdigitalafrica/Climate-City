@@ -12,3 +12,5 @@ dist/assets/*.jpg
 !dist/assets/masterplan-panorama.png
 .vercel
 .env*
+
+!dist/assets/city-locator-8k.jpg

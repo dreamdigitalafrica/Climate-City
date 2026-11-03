@@ -15,3 +15,7 @@ film.addEventListener('playing',()=>{play.hidden=true;panel.classList.add('is-pl
 film.addEventListener('ended',()=>{play.hidden=false;film.controls=false;panel.classList.remove('is-playing');});
 film.addEventListener('error',()=>{error.hidden=false;play.hidden=false;});
 })();
+
+window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==document.querySelector('.explorer-frame')?.contentWindow||e.data?.type!=='climate-scroll')return;const delta=Number(e.data.delta);if(Number.isFinite(delta))window.scrollBy(0,Math.max(-600,Math.min(600,delta)));});
+
+(()=>{const section=document.querySelector('.landing-explorer');if(!section)return;const reopen=document.createElement('button');reopen.className='pill-button explorer-return';reopen.textContent='Explore Climate City';section.after(reopen);reopen.onclick=()=>{section.classList.remove('is-closed');reopen.classList.remove('visible');section.scrollIntoView({behavior:'smooth'})};window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==section.querySelector('iframe').contentWindow||e.data?.type!=='climate-close')return;section.classList.add('is-closed');reopen.classList.add('visible');document.getElementById('vision').scrollIntoView({behavior:'smooth'});reopen.focus({preventScroll:true})});})();
