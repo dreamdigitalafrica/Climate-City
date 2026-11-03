@@ -92,3 +92,6 @@ body.climate-landing{background:#263c31}.vision-section{background:#263c31;color
 .in-city-journey{overflow:hidden!important}.in-city-journey .explorer-frame{position:fixed;inset:0;height:100dvh;width:100%;z-index:100}.in-city-journey #main-header{display:none!important}
 @media(max-width:700px){.landing-explorer{min-height:0;height:150svh}.image-strip a{width:190px;height:245px}.image-strip{gap:16px}.destination-track .destination-card{width:270px;flex-basis:270px}.destination-track .destination-card-image{height:250px}.vision-statement{font-size:30px!important}.virtual-tour-panel{height:auto;min-height:0;max-height:none;aspect-ratio:16/9}.film-playback{right:12px;bottom:12px;padding:8px 13px;font-size:11px}}
 @media(prefers-reduced-motion:reduce){.destination-track{animation:none}.destination-track [aria-hidden=true]{display:none}}
+
+/* Hero remains part of normal page flow, without scroll pinning. */
+.landing-explorer .explorer-frame{position:relative;top:auto;height:100%}.in-city-journey .explorer-frame{position:fixed;inset:0;height:100dvh}

@@ -16,3 +16,5 @@ dist/assets/*.jpg
 !dist/assets/city-locator-8k.jpg
 
 !dist/assets/city-locator-web.jpg
+
+!dist/assets/city-locator-4k.jpg
