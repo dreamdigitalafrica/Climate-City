@@ -98,3 +98,18 @@ body.climate-landing{background:#263c31}.vision-section{background:#263c31;color
 
 /* A shorter, passive homepage landscape; exploration lives on destination pages. */
 .landing-explorer{height:105svh;min-height:0}.landing-explorer:after{height:22svh}.landing-explorer .explorer-frame{pointer-events:none}
+
+/* Clickable location map, transparent framed navigation, and static cards. */
+.landing-explorer .explorer-frame{pointer-events:auto}
+body.climate-landing #main-header{display:block;z-index:80}
+#main-header .navbar-inner{border:1px solid #f4f0df70!important;border-radius:24px;background:transparent!important;padding:15px 22px}
+.in-city-journey #main-header{display:none!important}
+.vision-section .image-strip-wrap{overflow:visible;display:block;max-width:none}
+.vision-section .image-strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));width:100%;gap:18px;transform:none!important;animation:none!important}
+.vision-section .image-strip a{width:100%;height:260px;margin:0}
+.vision-section .image-strip a:nth-child(even){margin-top:28px}
+#destinationCards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px;overflow:visible}
+#destinationCards .destination-card{width:100%;min-width:0}#destinationCards .destination-card-image{height:310px}
+.destinations-section{overflow:hidden;padding-bottom:90px}
+@media(max-width:900px){.vision-section .image-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.vision-section .image-strip a{height:240px}.vision-section .image-strip a:nth-child(even){margin-top:0}#destinationCards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){#main-header .navbar-inner{padding:12px 15px;border-radius:20px}.vision-section .image-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.vision-section .image-strip a{height:210px}#destinationCards{grid-template-columns:1fr;gap:28px}#destinationCards .destination-card-image{height:290px}}
