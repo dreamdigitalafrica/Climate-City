@@ -80,3 +80,6 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 .landing-explorer{height:100svh;min-height:600px;background:#191b1a}.explorer-frame{border:0;width:100%;height:100%;display:block}body.climate-landing #main-header{display:none}.arrow-circle,.card-arrow{display:none!important}.pill-button{padding:16px 25px}.place-link b:empty{display:none}
 
 body.climate-landing #main-header{display:block}.navbar-inner{background:#222824cf;border-color:#ffffff25}.landing-explorer{padding-top:115px;height:100svh;min-height:640px;background:#222824}.landing-explorer.is-closed{display:none}.explorer-return{display:none;margin:20px auto}.explorer-return.visible{display:block}.header-cta{white-space:nowrap}@media(max-width:700px){.landing-explorer{padding-top:100px}.climate-brand small{font-size:6px}.header-cta{display:none}}
+
+/* Transparent site header on all pages. */
+#main-header,.navbar-inner{background:transparent!important;backdrop-filter:none!important;box-shadow:none!important;border-color:transparent!important}#main-header .climate-brand,#main-header .nav-link{text-shadow:0 1px 5px #0008}.landing-explorer{padding-top:0}.embedded .topbar{top:105px}
