@@ -6,8 +6,9 @@ document.getElementById('contactForm').addEventListener('submit',function(event)
     field.setCustomValidity(field.value.trim()?'':'Please fill in this field.');
     if(!field.reportValidity())return;
   }
-  const interest=document.getElementById('contactInterest').value;
-  const text=`Hello Climate City, my name is ${name.value.trim()}.\n\nEnquiry: ${interest}\n\n${message.value.trim()}`;
+  const email=document.getElementById('contactEmail').value.trim();
+  const phone=document.getElementById('contactPhone').value.trim();
+  const text=`Hello Climate City, my name is ${name.value.trim()}.\n\n${email ? `Email: ${email}\n` : ''}${phone ? `Phone: ${phone}\n` : ''}\n\n${message.value.trim()}`;
   const url='https://wa.me/2347082064914?text='+encodeURIComponent(text);
   document.getElementById('contactFallback').href=url;
   document.getElementById('contactStatus').hidden=false;
