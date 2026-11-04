@@ -184,3 +184,5 @@ loadData();
 
 
 (()=>{if(window.parent===window)return;const world=document.getElementById('world');let y;world.addEventListener('touchstart',e=>{y=e.touches[0].clientY},{passive:true});world.addEventListener('touchmove',e=>{if(e.target.closest('button'))return;const next=e.touches[0].clientY;window.parent.postMessage({type:'climate-scroll',delta:y-next},location.origin);y=next;e.preventDefault()},{passive:false});})();
+// Highlight the row passing through the reading area while the list scrolls.
+(()=>{const list=document.getElementById('destinationList');let frame=0,timer;list.addEventListener('scroll',()=>{if(frame)return;frame=requestAnimationFrame(()=>{frame=0;const bounds=list.getBoundingClientRect(),target=bounds.top+Math.min(bounds.height*.4,170);let nearest=null,distance=Infinity;for(const row of list.children){row.classList.remove('scroll-highlight');const rect=row.getBoundingClientRect(),delta=Math.abs(rect.top+rect.height/2-target);if(delta<distance){nearest=row;distance=delta}}nearest?.classList.add('scroll-highlight');clearTimeout(timer);timer=setTimeout(()=>nearest?.classList.remove('scroll-highlight'),700)})},{passive:true})})();
