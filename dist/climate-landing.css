@@ -113,3 +113,18 @@ body.climate-landing #main-header{display:block;z-index:80}
 .destinations-section{overflow:hidden;padding-bottom:90px}
 @media(max-width:900px){.vision-section .image-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.vision-section .image-strip a{height:240px}.vision-section .image-strip a:nth-child(even){margin-top:0}#destinationCards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){#main-header .navbar-inner{padding:12px 15px;border-radius:20px}.vision-section .image-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.vision-section .image-strip a{height:210px}#destinationCards{grid-template-columns:1fr;gap:28px}#destinationCards .destination-card-image{height:290px}}
+
+/* Reference-style transparent navigation over a museum video hero. */
+#main-header .navbar-inner{border:0!important;border-radius:0;background:transparent!important;padding:12px 0}
+#main-header .nav-link{font-size:12px;text-transform:uppercase;letter-spacing:.6px;font-weight:600}
+#main-header .climate-brand>span{font-size:28px}
+.tourism-hero{height:100svh;min-height:600px;position:relative;display:grid;place-items:center;overflow:hidden;background:#17251e}
+.tourism-hero>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tourism-hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,#0005,transparent 35%,#0002)}
+.tourism-hero-content{position:relative;z-index:1;text-align:center;color:#fff;padding:110px 24px 60px;max-width:850px;text-shadow:0 2px 12px #0008}
+.tourism-kicker{display:inline-block;border-radius:30px;background:#18231dd9;padding:8px 17px;font-size:11px;letter-spacing:1.4px}
+.tourism-hero-content h1{font:600 clamp(48px,6vw,84px)/1.1 Arial,sans-serif;letter-spacing:-2px;margin:24px 0 18px}
+.tourism-hero-content p{font-size:16px;line-height:1.7;margin:0 auto 30px}
+.tourism-cta{display:inline-flex;padding:15px 27px;border-radius:30px;background:#9a4c32;color:#fff;font-size:14px;font-weight:600;text-shadow:none;transition:background .2s}
+.tourism-cta:hover{background:#b76040}.hero-playback{position:absolute;right:4%;bottom:24px;z-index:2;border:1px solid #ffffff80;border-radius:24px;padding:10px 16px;background:#18231dbb;color:#fff;font-size:12px}
+@media(max-width:700px){.tourism-hero{min-height:540px}.tourism-hero-content h1{font-size:48px}.tourism-hero-content p{font-size:14px;max-width:290px}#main-header .climate-brand>span{font-size:24px}.tourism-hero-content{padding-top:90px}}

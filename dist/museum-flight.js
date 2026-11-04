@@ -3,7 +3,7 @@
  if(new URLSearchParams(location.search).has("static"))return;
  const portrait=matchMedia('(max-width:700px)').matches;
  const layer=document.createElement('section');layer.className='museum-flight';layer.hidden=true;layer.setAttribute('aria-label','Museum arrival flight');
- const video=document.createElement('video');video.muted=true;video.playsInline=true;video.preload='auto';video.poster='assets/city-locator-4k.jpg';video.src=portrait?'assets/museum-flight-mobile.mp4':'assets/museum-flight-desktop.mp4';
+ const video=document.createElement('video');video.muted=true;video.playsInline=true;video.preload='auto';video.poster='assets/city-aerial-video-frame-4k.png';video.src=portrait?'assets/museum-flight-mobile.mp4':'assets/museum-flight-desktop.mp4';
  const back=document.createElement('button');back.className='flight-back';back.textContent='Back to city';
  const label=document.createElement('div');label.className='flight-label';label.innerHTML='<span>Museum & Cultural Centre</span><h2>Grand arrival</h2><p>Scroll to guide your arrival</p>';
  const skip=document.createElement('button');skip.className='flight-skip';skip.textContent='Enter galleries';

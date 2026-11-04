@@ -23,3 +23,5 @@ dist/assets/*.jpg
 !dist/assets/museum-flight-mobile.mp4
 
 !dist/assets/city-aerial-higgsfield-4k.jpg
+
+!dist/assets/city-aerial-video-frame-4k.png

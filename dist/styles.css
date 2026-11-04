@@ -71,3 +71,5 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 
 /* Compact visible markers with a generous touch target. */
 .marker{gap:4px;min-height:44px;padding:8px 0}.marker .pin{width:26px;height:26px;min-width:26px}.marker .pin svg{width:14px;height:14px}.marker .pin-name{font-size:10px;padding:6px 8px;border-radius:7px}.marker:before{content:'';position:absolute;left:-9px;top:0;width:44px;height:44px}.marker.featured .pin{width:28px;height:28px;min-width:28px}
+
+.map-home{margin-left:auto;margin-right:24px;padding:10px 16px;border:1px solid #ffffff60;border-radius:24px;background:#17251dbb;font-size:12px}.world-controls{background:#17251dbb;padding:10px;border-radius:20px}.world-controls #rotate:disabled{opacity:.35}@media(max-width:600px){.topbar .brand>span{font-size:18px}.map-home{font-size:10px;padding:9px 10px;margin-right:12px}.world-controls{left:4%;right:4%;justify-content:center;gap:5px}.view-switch{margin-right:4px}.view-switch button{padding:10px;font-size:10px}}
