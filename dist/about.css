@@ -24,3 +24,29 @@ body.climate-landing.about-page{background:#faf8f2!important;color:#26332d!impor
 .leadership-page #leadership{border:0;padding-top:20px}
 .leadership-page #leadership>h2{display:none}
 @media(max-width:650px){.about-page .sector summary{font-size:16px;gap:12px;padding:15px 4px}.about-page .sector-content{padding:8px 8px 16px 30px}.leadership-grid img{max-width:360px}.about-page #sectors{padding-top:10px}}
+
+/* Climate City's sustainable design story. */
+.about-page .sustainable-design{padding:60px 0 65px;border-top:1px solid #d4d7cd;border-bottom:1px solid #d4d7cd;margin-bottom:45px;scroll-margin-top:30px}
+.design-intro{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start;margin-bottom:35px}
+.about-page .design-intro h2{font-size:clamp(32px,3.4vw,46px);line-height:1.15;margin:0;letter-spacing:-1px}
+.about-page .design-intro p{font-size:16px;line-height:1.8;margin:0}
+.design-layout{display:grid;grid-template-columns:1.05fr 1fr;gap:36px;align-items:start}
+.sustainable-design figure{margin:0;min-width:0}
+.design-feature img{display:block;width:100%;height:460px;object-fit:cover;object-position:44% center;border-radius:12px}
+.sustainable-design figcaption{font-size:13px;line-height:1.5;margin-top:12px;color:#59634f}
+.design-principles{border-top:1px solid #bec6b7}
+.design-disclosure{border-bottom:1px solid #bec6b7}
+.design-disclosure summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;padding:20px 0;cursor:pointer;font-size:18px;line-height:1.4}
+.design-disclosure summary::-webkit-details-marker{display:none}
+.design-disclosure summary:hover{color:#64724f}
+.design-plus{width:26px;height:26px;flex-shrink:0;position:relative;border:1px solid #a6b19a;border-radius:50%}
+.design-plus:before,.design-plus:after{content:'';position:absolute;left:7px;top:11px;width:10px;height:1px;background:currentColor}
+.design-plus:after{transform:rotate(90deg);transition:transform .2s}
+.design-disclosure[open] .design-plus:after{transform:rotate(0)}
+.about-page .design-disclosure p{font-size:15px;line-height:1.8;margin:0;padding:0 32px 22px 0}
+.design-gallery{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:38px}
+.design-gallery img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:12px}
+.about-page .design-note{font-size:12px;line-height:1.6;margin:24px 0 0;color:#59634f}
+@media(prefers-reduced-motion:no-preference){.design-disclosure[open]>div{animation:design-reveal .28s ease-out}@keyframes design-reveal{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}}
+@media(max-width:800px){.design-intro,.design-layout{grid-template-columns:1fr;gap:24px}.design-feature img{height:auto;aspect-ratio:16/10}.about-page .sustainable-design{padding:35px 0 40px}.design-gallery{gap:16px;margin-top:28px}}
+@media(max-width:480px){.design-gallery{grid-template-columns:1fr;gap:24px}.design-disclosure summary{font-size:17px;padding:18px 0}.about-page .design-disclosure p{padding-right:0}.design-intro{gap:18px}.sustainable-design figcaption{font-size:12px}}

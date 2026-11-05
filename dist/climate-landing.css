@@ -150,3 +150,10 @@ body.climate-landing #main-header{display:block;z-index:80}
 .film-playback:hover .tour-play-icon{transform:scale(1.06);background:#ffffff30}
 @media(max-width:800px){.tourism-hero{min-height:650px;height:95svh;max-height:900px}#main-header .nav-explore{padding:10px 16px;font-size:12px}}
 @media(max-width:480px){#main-header .climate-brand>span{font-size:21px}#main-header .climate-brand{gap:8px}#main-header .brand-mark{width:30px;height:30px}#main-header .nav-explore{padding:9px 12px}.tour-play-icon{width:66px;height:66px;font-size:22px}}
+/* The entrance film is an inline part of the page, without browser chrome. */
+#cityWelcomeFilm{position:relative;inset:auto;width:100%;height:auto;max-height:none;aspect-ratio:16/9;padding:0;margin:0;z-index:auto;overflow:hidden;background:#18261f;scroll-margin-top:0}
+#cityWelcomeFilm[hidden]{display:none}
+#welcomeVideo{display:block;width:100%;height:100%;object-fit:cover}
+.welcome-film-actions{gap:10px;align-items:center}
+.welcome-film-actions>a{margin-left:auto}
+@media(max-width:600px){.welcome-film-actions{inset:12px 12px auto;gap:6px}.welcome-film-actions>*{padding:8px 11px;font-size:11px}}

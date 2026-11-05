@@ -28,3 +28,6 @@ dist/assets/*.jpg
 
 !dist/assets/mikoshel-ceo.jpg
 !dist/assets/mikoshel-coo.jpg
+
+!dist/assets/sustainable-*.jpg
+!dist/assets/city-aerial-sharp-4k.jpg
