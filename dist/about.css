@@ -9,3 +9,18 @@ body.climate-landing.about-page{background:#faf8f2!important;color:#26332d!impor
 .about-page .about-narrative{display:grid;grid-template-columns:.9fr 1.2fr;gap:60px;text-align:left;padding-bottom:65px}.about-intro-heading h2{font-size:clamp(32px,3.5vw,48px);line-height:1.18;letter-spacing:-1px}.about-intro-heading em{font-weight:400}.about-page .about-intro-heading .lead{font-size:20px;line-height:1.6;margin:25px 0;max-width:380px}.about-page .about-narrative .intro-copy{max-width:none;margin:0}.about-narrative .intro-copy p{font-size:16px;line-height:1.85;margin-bottom:24px}@media(max-width:800px){.about-page .about-narrative{grid-template-columns:1fr;gap:12px;padding-bottom:35px}.about-page .about-intro-heading .lead{max-width:none;font-size:18px}.about-intro-heading h2{font-size:36px}.about-narrative .intro-copy p{font-size:16px;line-height:1.8}}
 
 .leadership-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.leadership-grid article{min-width:0}.leadership-grid img{display:block;width:100%;max-width:360px;height:auto;aspect-ratio:449/540;object-fit:cover;border-radius:12px;margin-bottom:25px}.leadership-grid h3{font-size:27px;line-height:1.25;margin-bottom:8px}.about-page .leadership-role{font-size:13px;letter-spacing:.3px;color:#56654c;margin-bottom:18px}.leadership-grid article>p:last-child{font-size:16px;line-height:1.8}@media(max-width:700px){.leadership-grid{grid-template-columns:1fr;gap:45px}.leadership-grid img{max-width:none}.leadership-grid h3{font-size:25px}}
+
+/* Compact, native disclosure rows keep sector information within reach. */
+.about-page #sectors{max-width:850px;margin:0 auto;padding:25px 0 35px}
+.about-page #sectors>h2{font-size:clamp(28px,3vw,36px);margin-bottom:14px}
+.about-page #sectors>p{font-size:15px;line-height:1.75;max-width:680px}
+.about-page .sector-list{margin-top:24px}
+.about-page .sector summary{padding:16px 8px;font-size:17px;gap:18px;transition:background .2s}
+.about-page .sector summary:hover,.about-page .sector[open] summary{background:#e9eadd}
+.about-page .sector .toggle{width:28px;height:28px}
+.about-page .sector .toggle:before,.about-page .sector .toggle:after{top:13px;left:8px}
+.about-page .sector-content{padding:8px 48px 12px;max-width:760px}
+.about-page .sector-content p{font-size:15px;line-height:1.8;margin:0 0 10px}
+.leadership-page #leadership{border:0;padding-top:20px}
+.leadership-page #leadership>h2{display:none}
+@media(max-width:650px){.about-page .sector summary{font-size:16px;gap:12px;padding:15px 4px}.about-page .sector-content{padding:8px 8px 16px 30px}.leadership-grid img{max-width:360px}.about-page #sectors{padding-top:10px}}
