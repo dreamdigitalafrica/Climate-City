@@ -25,3 +25,6 @@ dist/assets/*.jpg
 !dist/assets/city-aerial-higgsfield-4k.jpg
 
 !dist/assets/city-aerial-video-frame-4k.png
+
+!dist/assets/mikoshel-ceo.jpg
+!dist/assets/mikoshel-coo.jpg
