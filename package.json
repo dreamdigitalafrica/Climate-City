@@ -1,0 +1,42 @@
+{
+  "name": "climate-city",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "format": "prettier --write './src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "dependencies": {
+    "@iconify/react": "^6.0.2",
+    "next": "^16.2.9",
+    "preline": "4.0.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "smoothscroll-for-websites": "^1.5.1",
+    "swiper": "^12.2.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@iconify/json": "^2.2.485",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/aos": "^3.0.8",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^10.5.0",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "prettier": "^3.8.4",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3"
+  }
+}

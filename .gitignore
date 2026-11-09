@@ -31,3 +31,8 @@ dist/assets/*.jpg
 
 !dist/assets/sustainable-*.jpg
 !dist/assets/city-aerial-sharp-4k.jpg
+
+node_modules/
+.next/
+out/
+*.tsbuildinfo

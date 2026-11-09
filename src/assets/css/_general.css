@@ -1,0 +1,77 @@
+/* _general.css */
+
+
+@layer base {
+    html {
+        @apply w-full scroll-smooth overflow-x-clip;
+    }
+
+    body {
+        @apply font-body text-body-color text-base leading-[1.3em] font-medium overflow-x-clip;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading leading-[1.3] font-semibold text-default-900;
+    }
+
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        @apply cursor-pointer;
+    }
+}
+
+select,
+input,
+textarea {
+    @apply transition-all duration-200 focus:ring-0 focus:outline-0;
+}
+
+.container {
+    @apply lg:px-40 md:px-5 px-3.75 lg:max-w-476 md:max-w-3xl max-w-100 md:mx-auto mx-0;
+}
+
+.container-small {
+    @apply mx-auto max-w-245 lg:px-7.5 md:px-5 px-3.75;
+}
+
+/* Navbar Active Link */
+#navbar a.active {
+    @apply text-primary-1;
+
+    span {
+        @apply scale-100;
+    }
+}
+
+@keyframes marqueeLeft {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes marqueeRight {
+        from {
+            transform: translateX(-50%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .animate-marquee-left {
+        animation: marqueeLeft 25s linear infinite;
+    }
+
+    .animate-marquee-right {
+        animation: marqueeRight 25s linear infinite;
+    }

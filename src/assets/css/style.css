@@ -1,0 +1,33 @@
+/*
+Template Name: Mivora - Logistics,Supply Service Next.js 16 & Tailwind CSS 4 Website Template
+Version: 1.0.0
+Author: Unifato
+Website: https://unifato.com/
+Email: unifato.themes@gmail.com
+File: Style CSS File
+*/
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* TailwindCSS */
+@import "tailwindcss";
+
+/* Preline UI */
+@import "preline/variants.css";
+@source "preline/dist/*.js";
+
+/* Plugin CSS */
+@import "swiper/swiper-bundle.css";
+/* @import "aos/dist/aos.css"; */
+
+/* Tailwind Plugin */
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+
+
+@import "./_config.css";
+@import "./_swiper.css";
+@import "./_general.css";

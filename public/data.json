@@ -1,0 +1,481 @@
+{
+  "masterplan": "assets/masterplan.jpg",
+  "destinations": [
+    {
+      "id": "museum",
+      "title": "Museum & Cultural Centre",
+      "eyebrow": "African stories. A shared future.",
+      "u": 52,
+      "v": 47,
+      "images": [
+        {
+          "src": "assets/museum-1.webp",
+          "title": "Grand arrival atrium",
+          "description": "A monumental welcome pairs a sculptural staircase with filtered daylight and contemporary African art."
+        },
+        {
+          "src": "assets/museum-2.webp",
+          "title": "African heritage galleries",
+          "description": "Carefully lit displays connect material culture, craftsmanship and a landscaped courtyard."
+        },
+        {
+          "src": "assets/museum-3.webp",
+          "title": "Contemporary art hall",
+          "description": "Generous galleries celebrate contemporary creativity through art, textiles and changing exhibitions."
+        },
+        {
+          "src": "assets/museum-4.webp",
+          "title": "Immersive storytelling theatre",
+          "description": "An intimate theatre surrounds visitors with moving landscapes, sound and shared stories."
+        },
+        {
+          "src": "assets/museum-5.webp",
+          "title": "Living craft studio",
+          "description": "A working atelier brings weaving, ceramics and hands-on learning into the museum experience."
+        },
+        {
+          "src": "assets/museum-6.webp",
+          "title": "Research library",
+          "description": "A serene reading room connects research, archives and quiet study with views of the gardens."
+        },
+        {
+          "src": "assets/museum-7.webp",
+          "title": "Sculpture courtyard and caf\u00e9",
+          "description": "Art, shade and hospitality meet in an open courtyard beside the museum caf\u00e9."
+        }
+      ]
+    },
+    {
+      "id": "hospital",
+      "title": "Hospital & Wellbeing",
+      "eyebrow": "Care within reach.",
+      "u": 32,
+      "v": 30,
+      "images": [
+        {
+          "src": "assets/hospital-1.webp",
+          "title": "Welcome atrium",
+          "description": "A calm, light-filled arrival hall connects reception, comfortable waiting areas and a healing garden."
+        },
+        {
+          "src": "assets/hospital-2.webp",
+          "title": "Patient suite",
+          "description": "A quiet patient room pairs clinical functionality with daylight and views of greenery."
+        },
+        {
+          "src": "assets/hospital-3.webp",
+          "title": "Consultation rooms",
+          "description": "Welcoming consultation spaces support private conversations and everyday care."
+        },
+        {
+          "src": "assets/hospital-4.webp",
+          "title": "Diagnostic centre",
+          "description": "An orderly diagnostic suite balances patient comfort with clear clinical circulation."
+        },
+        {
+          "src": "assets/hospital-5.webp",
+          "title": "Rehabilitation studio",
+          "description": "A daylit rehabilitation studio supports movement and recovery."
+        },
+        {
+          "src": "assets/hospital-6.webp",
+          "title": "Healing garden",
+          "description": "A sheltered courtyard offers patients and families a restorative pause."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "Schools & Learning",
+      "eyebrow": "A world of discovery.",
+      "u": 24,
+      "v": 18,
+      "images": [
+        {
+          "src": "assets/schools-1.webp",
+          "title": "Learning commons",
+          "description": "A welcoming learning commons brings shared study and informal gathering together."
+        },
+        {
+          "src": "assets/schools-2.webp",
+          "title": "Library",
+          "description": "A generous library provides places for quiet reading, research and discovery."
+        },
+        {
+          "src": "assets/schools-3.webp",
+          "title": "Science laboratory",
+          "description": "A practical science classroom encourages hands-on learning."
+        },
+        {
+          "src": "assets/schools-4.webp",
+          "title": "Digital studio",
+          "description": "A flexible digital studio supports practical skills and creative work."
+        },
+        {
+          "src": "assets/schools-5.webp",
+          "title": "Early-years classroom",
+          "description": "A bright early-years room connects playful learning to the garden."
+        },
+        {
+          "src": "assets/schools-6.webp",
+          "title": "Assembly hall",
+          "description": "A shaded gathering hall creates room for shared learning and performance."
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports Centre",
+      "eyebrow": "Room to move.",
+      "u": 13,
+      "v": 35,
+      "images": [
+        {
+          "src": "assets/sports-1.webp",
+          "title": "Sports atrium",
+          "description": "A welcoming atrium connects the centre's activity spaces."
+        },
+        {
+          "src": "assets/sports-2.webp",
+          "title": "Indoor arena",
+          "description": "A flexible indoor arena provides space for community sport."
+        },
+        {
+          "src": "assets/sports-3.webp",
+          "title": "Aquatics hall",
+          "description": "A daylit pool hall connects swimming with views of the landscape."
+        },
+        {
+          "src": "assets/sports-4.webp",
+          "title": "Fitness studio",
+          "description": "A bright fitness studio supports everyday training."
+        },
+        {
+          "src": "assets/sports-5.webp",
+          "title": "Movement studio",
+          "description": "A quieter studio provides room for stretching, dance and wellbeing."
+        },
+        {
+          "src": "assets/sports-6.webp",
+          "title": "Players lounge",
+          "description": "A comfortable lounge gives athletes and visitors a place to recharge."
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Market & Enterprise",
+      "eyebrow": "The rhythm of local life.",
+      "u": 30,
+      "v": 61,
+      "images": [
+        {
+          "src": "assets/market-1.webp",
+          "title": "Market hall",
+          "description": "A generous covered hall brings local produce and everyday trade together."
+        },
+        {
+          "src": "assets/market-2.webp",
+          "title": "Artisan arcade",
+          "description": "An artisan arcade gives craft and local enterprise a distinctive setting."
+        },
+        {
+          "src": "assets/market-3.webp",
+          "title": "Food court",
+          "description": "A shaded dining hall creates a social heart for the market."
+        },
+        {
+          "src": "assets/market-4.webp",
+          "title": "Demonstration kitchen",
+          "description": "A demonstration kitchen connects food, learning and local producers."
+        },
+        {
+          "src": "assets/market-5.webp",
+          "title": "Retail courtyard",
+          "description": "A planted courtyard links shaded shopping streets."
+        },
+        {
+          "src": "assets/market-6.webp",
+          "title": "Local goods gallery",
+          "description": "A curated retail space presents locally made products."
+        }
+      ]
+    },
+    {
+      "id": "diplomatic",
+      "title": "Diplomatic Park & Village",
+      "eyebrow": "Connected to the world.",
+      "u": 48,
+      "v": 20,
+      "images": [
+        {
+          "src": "assets/diplomatic-1.webp",
+          "title": "Diplomatic reception",
+          "description": "A dignified reception hall welcomes international exchange."
+        },
+        {
+          "src": "assets/diplomatic-2.webp",
+          "title": "Council chamber",
+          "description": "A flexible meeting chamber supports dialogue and collaboration."
+        },
+        {
+          "src": "assets/diplomatic-3.webp",
+          "title": "Exchange pavilion",
+          "description": "A cultural exchange pavilion creates a place for exhibitions and encounters."
+        },
+        {
+          "src": "assets/diplomatic-4.webp",
+          "title": "Research library",
+          "description": "A quiet research library supports learning across cultures."
+        },
+        {
+          "src": "assets/diplomatic-5.webp",
+          "title": "Delegates lounge",
+          "description": "A comfortable lounge offers informal space for visiting delegates."
+        },
+        {
+          "src": "assets/diplomatic-6.webp",
+          "title": "Peace courtyard",
+          "description": "A planted courtyard provides a calm setting between meetings."
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "title": "Wildlife & Conservation",
+      "eyebrow": "Let nature lead.",
+      "u": 75,
+      "v": 20,
+      "images": [
+        {
+          "src": "assets/wildlife-1.webp",
+          "title": "Nature arrival pavilion",
+          "description": "An airy visitor pavilion introduces the landscape and its conservation story."
+        },
+        {
+          "src": "assets/wildlife-2.webp",
+          "title": "Ecology gallery",
+          "description": "A gallery creates space to discover habitats, species and landscape restoration."
+        },
+        {
+          "src": "assets/wildlife-3.webp",
+          "title": "Observation hide",
+          "description": "A quiet timber hide frames long views over a protected habitat."
+        },
+        {
+          "src": "assets/wildlife-4.webp",
+          "title": "Learning studio",
+          "description": "A hands-on learning space connects visitors with conservation practice."
+        },
+        {
+          "src": "assets/wildlife-5.webp",
+          "title": "Habitat boardwalk",
+          "description": "Raised paths allow visitors to explore while protecting sensitive ground."
+        },
+        {
+          "src": "assets/wildlife-6.webp",
+          "title": "Lookout terrace",
+          "description": "A sheltered terrace offers a slow encounter with the surrounding landscape."
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "title": "Hotel & Hospitality",
+      "eyebrow": "Stay a little longer.",
+      "u": 80,
+      "v": 43,
+      "images": [
+        {
+          "src": "assets/hotel-1.webp",
+          "title": "Arrival hall",
+          "description": "A monumental welcoming lobby with crafted sandstone, timber ceilings and a view towards the water."
+        },
+        {
+          "src": "assets/hotel-2.webp",
+          "title": "Lake-view suite",
+          "description": "A restful guest suite opens towards the landscape through deep shaded glazing."
+        },
+        {
+          "src": "assets/hotel-3.webp",
+          "title": "Signature restaurant",
+          "description": "Warm light, local materials and generous views shape a destination dining room."
+        },
+        {
+          "src": "assets/hotel-4.webp",
+          "title": "Wellness sanctuary",
+          "description": "A quiet spa combines warm stone, filtered daylight and sheltered garden views."
+        },
+        {
+          "src": "assets/hotel-5.webp",
+          "title": "Evening lounge",
+          "description": "An intimate lounge celebrates contemporary African art and craftsmanship."
+        },
+        {
+          "src": "assets/hotel-6.webp",
+          "title": "Garden courtyard",
+          "description": "An open-air heart brings shade, greenery and still water into the hotel."
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "Landscape & Gardens",
+      "eyebrow": "A living landscape.",
+      "u": 65,
+      "v": 32,
+      "images": [
+        {
+          "src": "assets/landscape-1.webp",
+          "title": "The central green",
+          "description": "A generous shared lawn forms the civic heart of the landscape."
+        },
+        {
+          "src": "assets/landscape-2.webp",
+          "title": "Shaded neighbourhood walk",
+          "description": "Tree-lined paths connect homes and everyday destinations."
+        },
+        {
+          "src": "assets/landscape-3.webp",
+          "title": "Rain garden",
+          "description": "A planted drainage corridor turns everyday infrastructure into a landscape experience."
+        },
+        {
+          "src": "assets/landscape-4.webp",
+          "title": "Sculpture garden",
+          "description": "Art and landscape meet along an intimate sequence of outdoor rooms."
+        },
+        {
+          "src": "assets/landscape-5.webp",
+          "title": "Botanical walk",
+          "description": "Layered planting and shaded pavilions invite leisurely exploration."
+        },
+        {
+          "src": "assets/landscape-6.webp",
+          "title": "Sunset overlook",
+          "description": "An elevated viewpoint reveals the city within its wider landscape."
+        }
+      ]
+    },
+    {
+      "id": "waterfront",
+      "title": "Hotel Waterfront",
+      "eyebrow": "Where the city unwinds.",
+      "u": 80,
+      "v": 67,
+      "images": [
+        {
+          "src": "assets/waterfront-1.webp",
+          "title": "Lakeside promenade",
+          "description": "A shaded public edge connects the hotel and waterfront destinations."
+        },
+        {
+          "src": "assets/waterfront-2.webp",
+          "title": "Dining terrace",
+          "description": "An outdoor dining terrace opens directly to the water."
+        },
+        {
+          "src": "assets/waterfront-3.webp",
+          "title": "Water garden",
+          "description": "A sheltered garden brings the lake atmosphere close to the hotel."
+        },
+        {
+          "src": "assets/waterfront-4.webp",
+          "title": "Arrival jetty",
+          "description": "A modest jetty forms a distinctive waterfront arrival point."
+        },
+        {
+          "src": "assets/waterfront-5.webp",
+          "title": "Sunset pavilion",
+          "description": "A quiet pavilion offers a place to pause at the water\u2019s edge."
+        },
+        {
+          "src": "assets/waterfront-6.webp",
+          "title": "Pool terrace",
+          "description": "The hotel\u2019s outdoor leisure spaces look towards the landscape."
+        }
+      ]
+    },
+    {
+      "id": "station",
+      "title": "Proposed Rail Station",
+      "eyebrow": "An arrival to remember.",
+      "u": 49,
+      "v": 73,
+      "images": [
+        {
+          "src": "assets/station-1.webp",
+          "title": "Arrival hall",
+          "description": "A light-filled station hall creates a welcoming civic gateway."
+        },
+        {
+          "src": "assets/station-2.webp",
+          "title": "Shaded platforms",
+          "description": "Deep canopies create comfortable, clearly arranged boarding spaces."
+        },
+        {
+          "src": "assets/station-3.webp",
+          "title": "Passenger lounge",
+          "description": "A comfortable waiting lounge combines daylight, shade and crafted finishes."
+        },
+        {
+          "src": "assets/station-4.webp",
+          "title": "Garden concourse",
+          "description": "A planted concourse brings the character of Climate City into the journey."
+        },
+        {
+          "src": "assets/station-5.webp",
+          "title": "Station caf\u00e9",
+          "description": "A relaxed caf\u00e9 offers a place to meet before the journey."
+        },
+        {
+          "src": "assets/station-6.webp",
+          "title": "Civic forecourt",
+          "description": "A landscaped arrival plaza connects rail, walking and local mobility."
+        }
+      ]
+    },
+    {
+      "id": "homes",
+      "title": "Homes & Neighbourhoods",
+      "eyebrow": "Life, close to what matters.",
+      "u": 10,
+      "v": 62,
+      "images": [
+        {
+          "src": "assets/homes-1.webp",
+          "title": "Homes & Neighbourhoods",
+          "description": "Courtyard homes and shaded streets connect daily life with the landscape."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "Clean Energy",
+      "eyebrow": "Power for everyday life.",
+      "u": 13,
+      "v": 10,
+      "images": [
+        {
+          "src": "assets/energy-1.webp",
+          "title": "Clean Energy",
+          "description": "The proposed energy strategy combines solar generation, storage and managed distribution."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food & Agriculture",
+      "eyebrow": "Closer to the source.",
+      "u": 55,
+      "v": 91,
+      "images": [
+        {
+          "src": "assets/food-1.webp",
+          "title": "Food & Agriculture",
+          "description": "Growing spaces connect fresh produce, practical learning and local livelihoods."
+        }
+      ]
+    }
+  ]
+}

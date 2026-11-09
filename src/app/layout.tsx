@@ -1,0 +1,49 @@
+import '@/assets/css/style.css'
+import favicon from '@/assets/images/favicon.png'
+import AppProvidersWrapper from '@/components/wrappers/AppProvidersWrapper'
+import { DEFAULT_PAGE_TITLE } from '@/config/constants'
+import type { Metadata } from 'next'
+import { Instrument_Sans, Inter } from 'next/font/google'
+import 'swiper/css'
+import 'swiper/css/effect-fade'
+import 'swiper/css/navigation'
+
+const inter = Inter({
+  variable: '--font-body',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+const instrumentSans = Instrument_Sans({
+  variable: '--font-heading',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+export const metadata: Metadata = {
+  title: {
+    template: `%s | ${DEFAULT_PAGE_TITLE}`,
+    default: DEFAULT_PAGE_TITLE,
+  },
+  icons: { icon: favicon.src },
+  description: 'Climate City is a proposed sustainable community in Nasarawa, Nigeria, powered by Mikoshel.',
+  keywords: ['Climate City', 'Nigeria', 'sustainable city', 'Mikoshel'],
+  authors: [{ name: 'Mikoshel' }],
+  robots: 'index, follow',
+}
+
+const RootLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) => {
+  return (
+    <html lang="en" className={`${inter.variable} ${instrumentSans.variable} antialiased`}>
+      <body suppressHydrationWarning>
+        <AppProvidersWrapper>{children}</AppProvidersWrapper>
+      </body>
+    </html>
+  )
+}
+
+export default RootLayout
