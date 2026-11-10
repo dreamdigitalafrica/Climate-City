@@ -43,3 +43,8 @@ main h1,main h2,main h3{text-wrap:balance}main p{text-wrap:pretty}
 #case-study-track h4{font-size:clamp(1.5rem,2.3vw,2.25rem);line-height:1.2}
 @media(max-width:639px){.welcome-hero,.welcome-hero>.container{min-height:85svh}.welcome-name{font-size:clamp(2.4rem,10.5vw,4rem)}.dam-film{min-height:65svh}.philosophy-section .grid{gap:16px}}
 @media(prefers-reduced-motion:reduce){.typing-caret{animation:none;display:none}}
+
+/* Reserve both lines before the first letter is revealed: no hydration flash or reflow. */
+.welcome-letter{opacity:0;animation:welcomeType .001s step-end forwards;animation-delay:var(--letter-delay)}
+@keyframes welcomeType{to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.welcome-letter{opacity:1;animation:none}}

@@ -1,22 +1,12 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import Link from 'next/link'
+import type { CSSProperties } from 'react'
 
 const title = 'Welcome to Climate City'
+const lines = ['Welcome to', 'Climate City']
 export default function Hero() {
-  const [length, setLength] = useState(title.length)
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    setLength(0)
-    const start = performance.now()
-    let frame: number
-    const tick = (now: number) => {
-      const progress = Math.min(1, (now - start) / 8000)
-      setLength(Math.floor(progress * title.length))
-      if (progress < 1) frame = requestAnimationFrame(tick)
-    }
-    frame = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(frame)
+  return () => cancelAnimationFrame(frame)
   }, [])
   return (
     <section className="welcome-hero bg-default-950 relative min-h-screen overflow-hidden">
@@ -26,10 +16,18 @@ export default function Hero() {
       </picture>
       <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-black/20" />
       <div className="container relative z-10 flex min-h-screen items-end pt-32 pb-20 md:pb-28">
-        <h1 className="welcome-heading" aria-label={title}>
-          <span aria-hidden="true" className="welcome-intro">{title.slice(0, Math.min(length, 10)) || '\u00a0'}</span>
-          <span aria-hidden="true" className="welcome-name">{title.slice(11, length) || '\u00a0'}<span className={length < title.length ? 'typing-caret' : 'typing-caret finished'} /></span>
-        </h1>
+        <div className="welcome-content">
+          <h1 className="welcome-heading" aria-label={title}>
+            {lines.map((line, lineIndex) => (
+              <span key={line} aria-hidden="true" className={lineIndex === 0 ? 'welcome-intro' : 'welcome-name'}>
+                {Array.from(line).map((letter, index) => (
+                  <span key={index} className="welcome-letter" style={{ '--letter-delay': `${((index + (lineIndex ? 10 : 0) + 1) / 22) * 8000}ms` } as CSSProperties}>{letter === ' ' ? '\u00a0' : letter}</span>
+                ))}
+              </span>
+            ))}
+          </h1>
+          <Link href="/explore.html" className="mt-8 inline-flex items-center justify-center rounded-full bg-primary-1 px-6 py-3 text-base font-medium text-default-950 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">Explore City</Link>
+        </div>
       </div>
     </section>
   )
