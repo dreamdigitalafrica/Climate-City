@@ -6,8 +6,6 @@ import type { CSSProperties } from 'react'
 const title = 'Welcome to Climate City'
 const lines = ['Welcome to', 'Climate City']
 export default function Hero() {
-  return () => cancelAnimationFrame(frame)
-  }, [])
   return (
     <section className="welcome-hero bg-default-950 relative min-h-screen overflow-hidden">
       <picture>
