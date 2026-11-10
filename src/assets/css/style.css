@@ -48,3 +48,27 @@ main h1,main h2,main h3{text-wrap:balance}main p{text-wrap:pretty}
 .welcome-letter{opacity:0;animation:welcomeType .001s step-end forwards;animation-delay:var(--letter-delay)}
 @keyframes welcomeType{to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.welcome-letter{opacity:1;animation:none}}
+
+/* Climate City serif identity and accessible image overlays. */
+.welcome-heading,.welcome-heading span{font-family:Georgia,'Times New Roman',serif!important;color:#fff!important}
+.welcome-intro{font-size:clamp(1.15rem,2vw,1.8rem);font-weight:400;min-height:1.5em}
+.welcome-name{font-weight:400;letter-spacing:-.045em}
+.welcome-content{position:relative;z-index:2;max-width:100%;text-shadow:0 2px 18px rgba(0,0,0,.55)}
+.welcome-content a{text-shadow:none}
+.about-restored{background:#f7f7f7;color:#212121;padding:clamp(48px,7vw,100px) 0}
+.about-restored section{max-width:1000px;margin:0 auto 64px;scroll-margin-top:110px}
+.about-restored h2{font-size:clamp(28px,3.5vw,44px);line-height:1.15;margin:0 0 24px;color:#212121}
+.about-restored p{font-size:clamp(16px,1.3vw,18px);line-height:1.75;color:#414941;margin:0 0 20px}
+.about-restored details{border-bottom:1px solid #ccd4c8;padding:0;background:#fff;border-radius:12px;margin:12px 0;overflow:hidden}
+.about-restored summary{cursor:pointer;padding:22px 24px;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:18px;font-weight:500;color:#212121}
+.about-restored summary::after{content:'+';flex:none;font-size:24px}.about-restored details[open]>summary::after{content:'−'}
+.about-restored details[open]>summary{background:#eaf6e5}.about-restored details>div{padding:20px 24px}.about-restored summary::-webkit-details-marker{display:none}
+.about-restored .sector-number{margin-right:14px;color:#566451}.about-restored .sector-toggle,.about-restored .design-plus{display:none}
+.about-restored a{color:#254b18;text-decoration:underline;text-underline-offset:4px}
+.about-restored .design-feature,.about-restored figure{display:none}
+.about-section-nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}.about-section-nav a{padding:10px 16px;border:1px solid #bccbb4;border-radius:24px;text-decoration:none}
+.profile-dialog{border:0;border-radius:24px;padding:0;background:#fff;color:#212121;width:min(680px,calc(100vw - 32px));max-height:85dvh;margin:auto;box-shadow:0 20px 100px #0005}
+.profile-dialog::backdrop{background:#101810b3;backdrop-filter:blur(5px)}
+.profile-dialog .profile-body{padding:clamp(24px,5vw,40px)}
+.profile-dialog h2{color:#212121;font-size:clamp(26px,4vw,36px);line-height:1.2}
+.profile-dialog p{color:#414941;line-height:1.75;font-size:16px}

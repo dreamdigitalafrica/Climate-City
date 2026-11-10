@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import AboutInfo from './components/AboutInfo'
 import CtaMarquee from './components/CtaMarquee'
 import Hero from './components/Hero'
-import MissionVision from './components/MissionVision'
+import RestoredAbout from './components/RestoredAbout'
 import Team from './components/Team'
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ const Page = () => {
     <>
       <Hero />
       <div id="vision"><AboutInfo /></div>
-      <div id="sustainable-design"><MissionVision /></div>
+      <RestoredAbout />
       <Team />
       <CtaMarquee />
     </>

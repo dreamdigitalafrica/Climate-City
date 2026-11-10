@@ -81,3 +81,5 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 #markers .marker.image-label-hit{transform:translate(0,-50%);min-height:24px;min-width:32px;border-radius:20px;background:transparent;filter:none;}
 #markers .marker.image-label-hit .pin,#markers .marker.image-label-hit .pin-name{visibility:hidden;}
 #markers .marker.image-label-hit:hover,#markers .marker.image-label-hit:focus-visible{outline:2px solid #7eea57;outline-offset:2px;background:rgba(126,234,87,.12);}
+
+.aerial-locked #zoomIn,.aerial-locked #zoomOut,.aerial-locked #resetView{display:none!important}.aerial-locked #world{touch-action:pan-y;cursor:default}

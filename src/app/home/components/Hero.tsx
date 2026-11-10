@@ -12,7 +12,7 @@ export default function Hero() {
         <source media="(max-width: 640px)" srcSet="/assets/new/cultural-centre-1024.webp" />
         <img src="/assets/new/cultural-centre.webp" alt="Climate City cultural centre with shaded terraces and landscaped gardens" fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
       </picture>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-black/20" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-black/15" />
       <div className="container relative z-10 flex min-h-screen items-end pt-32 pb-20 md:pb-28">
         <div className="welcome-content">
           <h1 className="welcome-heading" aria-label={title}>
