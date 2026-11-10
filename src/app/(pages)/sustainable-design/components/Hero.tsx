@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="relative z-20 container flex h-full grow flex-col items-center justify-end pt-16 text-center md:pt-24">
         <div className="mx-auto mb-7.5 max-w-3xl md:mb-10 lg:mb-35">
           <h1 className="mb-7.5 text-4xl leading-[1.1] font-medium text-white md:text-[64px]">Sustainable design</h1>
-          <p className="text-md mx-auto mb-5 max-w-xl leading-relaxed font-normal text-white md:text-base">Design for Nigeria’s climate. Reduce resource demand. Make daily life more comfortable.</p>
+          <p className="text-md mx-auto mb-5 max-w-xl leading-relaxed font-normal text-white md:text-base">Design for Africa’s climate. Reduce resource demand. Make daily life more comfortable.</p>
           <Link href="/contact" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-block rounded-full border border-dashed border-transparent px-5 py-2.5 font-medium text-nowrap transition-all duration-300 hover:text-white md:py-3.75">
             Discuss a partnership
           </Link>

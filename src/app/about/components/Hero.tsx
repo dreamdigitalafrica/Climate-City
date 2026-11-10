@@ -34,7 +34,7 @@ const Hero = () => {
               About <br className="hidden lg:block" />
               Climate City
             </h1>
-            <p className="text-md mb-5 font-normal text-white md:mb-7.5 md:w-lg md:text-base">A proposed 1,200-hectare sustainable community in Nasarawa, Nigeria. Homes, nature, enterprise and culture are brought together through a phased development vision.</p>
+            <p className="text-md mb-5 font-normal text-white md:mb-7.5 md:w-lg md:text-base">A proposed 1,200-hectare sustainable community in Nasarawa, Africa. Homes, nature, enterprise and culture are brought together through a phased development vision.</p>
             <Link href="/contact" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-block rounded-full border border-dashed border-transparent px-5 py-2.5 text-nowrap transition-all duration-300 hover:text-white md:py-3.75">
               Get in touch
             </Link>

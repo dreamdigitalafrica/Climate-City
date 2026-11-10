@@ -6,14 +6,14 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const base=[
- ['museum','Museum & Cultural Centre','African stories. A shared future.','A cultural heart for Nigerian and wider African heritage, with galleries, learning spaces and places to gather.',52,47,'Culture'],
+ ['museum','Museum & Cultural Centre','African stories. A shared future.','A cultural heart for African and wider African heritage, with galleries, learning spaces and places to gather.',52,47,'Culture'],
  ['hospital','Hospital & Wellbeing','Care within reach.','A calm, connected setting for healthcare, recovery and everyday wellbeing.',32,30,'Wellbeing'],
  ['schools','Schools & Learning','A world of discovery.','Learning environments that connect education, practical skills and the natural world.',24,18,'Education'],
  ['sports','Sports Centre','Room to move.','Places for sport, recreation and community, bringing active living into the everyday.',13,35,'Active living'],
  ['market','Market & Enterprise','The rhythm of local life.','A vibrant meeting place for fresh food, makers, neighbourhood trade and local enterprise.',30,61,'Enterprise'],
  ['diplomatic','Diplomatic Park','Connected to the world.','A proposed setting for cultural exchange, international dialogue and collaboration.',48,20,'Exchange'],
  ['wildlife','Wildlife & Conservation','Let nature lead.','A landscape-led destination for conservation learning, observation and connection with nature.',75,20,'Nature'],
- ['hotel','Hotel & Hospitality','Stay a little longer.','Warm Nigerian hospitality expressed through considered spaces, generous landscapes and a sense of place.',80,43,'Hospitality'],
+ ['hotel','Hotel & Hospitality','Stay a little longer.','Warm African hospitality expressed through considered spaces, generous landscapes and a sense of place.',80,43,'Hospitality'],
  ['landscape','Landscape & Gardens','A living landscape.','Connected gardens, shaded walking routes and restorative green spaces weave through the city.',65,32,'Landscape'],
  ['waterfront','Hotel Waterfront','Where the city unwinds.','A conceptual waterfront landscape for gathering, walking and enjoying the outdoors.',80,67,'Leisure'],
  ['station','Rail Station','An arrival to remember.','A proposed transport experience exploring a welcoming gateway and connections to the wider community. Rail integration is conceptual.',49,73,'Mobility'],

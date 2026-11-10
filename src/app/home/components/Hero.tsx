@@ -3,8 +3,8 @@
 import Link from 'next/link'
 import type { CSSProperties } from 'react'
 
-const title = 'Welcome to Climate City'
-const lines = ['Welcome to', 'Climate City']
+const title = 'Welcome to the Climate City'
+const lines = ['Welcome to the', 'Climate City']
 export default function Hero() {
   return (
     <section className="welcome-hero bg-default-950 relative min-h-screen overflow-hidden">
@@ -19,7 +19,7 @@ export default function Hero() {
             {lines.map((line, lineIndex) => (
               <span key={line} aria-hidden="true" className={lineIndex === 0 ? 'welcome-intro' : 'welcome-name'}>
                 {Array.from(line).map((letter, index) => (
-                  <span key={index} className="welcome-letter" style={{ '--letter-delay': `${((index + (lineIndex ? 10 : 0) + 1) / 22) * 8000}ms` } as CSSProperties}>{letter === ' ' ? '\u00a0' : letter}</span>
+                  <span key={index} className="welcome-letter" style={{ '--letter-delay': `${((index + (lineIndex ? lines[0].length : 0)) / lines.join('').length) * 1200}ms` } as CSSProperties}>{letter === ' ' ? '\u00a0' : letter}</span>
                 ))}
               </span>
             ))}

@@ -23,7 +23,7 @@ type BlogType = {
 const blogsData = [
  {id:1,title:'Shade before cooling',image:blog01,category:'Design',date:'Our approach',link:'/sustainable-design'},
  {id:2,title:'Water, wetlands and resilience',image:blog02,category:'Water',date:'Our approach',link:'/sustainable-design'},
- {id:3,title:'Space for Nigerian enterprise',image:blog03,category:'Enterprise',date:'Our approach',link:'/about'},
+ {id:3,title:'Space for African enterprise',image:blog03,category:'Enterprise',date:'Our approach',link:'/about'},
  {id:4,title:'Learning beyond the classroom',image:blog05,category:'Education',date:'Our approach',link:'/home#sectors'}
 ]
 

@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
             </div>
 
             <h2 className="text-default-950 mb-6 text-3xl leading-tight font-medium md:text-[34px] lg:mb-17.5 lg:w-lg">
-              Built around <span className="text-default-600">Nigeria’s needs.</span>
+              Building an <span className="text-default-600">eco friendly Africa</span>
             </h2>
 
             <div className="border-default-300 divide-default-300 divide-y divide-dashed border-y border-dashed">

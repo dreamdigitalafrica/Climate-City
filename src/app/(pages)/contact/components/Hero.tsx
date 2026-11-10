@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="flex flex-col items-center gap-y-3.75 text-center md:gap-y-5 lg:gap-y-10">
               <h3 className="text-default-900 text-xl font-medium md:mb-3.75 lg:text-[22px]">Plan your visit</h3>
               <div className="text-default-600 flex flex-col gap-1.5 text-base font-normal">
-                <div>Nasarawa State, Nigeria</div>
+                <div>Nasarawa State, Africa</div>
                 <div>Visits by prior arrangement</div>
               </div>
             </div>

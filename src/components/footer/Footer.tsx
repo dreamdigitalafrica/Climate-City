@@ -88,7 +88,7 @@ const Footer = () => {
               <div className="border-default-200 border-dashed md:border-b md:ps-5 md:pb-5 lg:ps-10 lg:pb-10">
                 <h3 className="text-default-950 mb-3.75 text-xl font-medium md:mb-5 md:text-3xl lg:mb-6.25">Address</h3>
                 <div className="flex flex-col gap-y-2.5 md:gap-y-7.5">
-                  <p className="text-default-600 leading-relaxed font-normal">Proposed development: Nasarawa State, Nigeria.</p>
+                  <p className="text-default-600 leading-relaxed font-normal">Proposed development: Nasarawa State, Africa.</p>
                   <p className="text-default-600 leading-relaxed font-normal">Contact the team before arranging a visit.</p>
                 </div>
               </div>
