@@ -1,6 +1,6 @@
 'use client'
 
-import aboutHeroImage from '@/assets/images/about/about-hero-image.jpg'
+import aboutHeroImage from '../../../../public/assets/new/climate-forum.webp'
 import heroLeftShape from '@/assets/images/icons/hero-left-shape.svg'
 import heroRightShape from '@/assets/images/icons/hero-right-shape.svg'
 import { Icon } from '@iconify/react'
@@ -23,7 +23,7 @@ const statsData: StatType[] = [
 const Hero = () => {
   return (
     <section className="bg-default-950 relative overflow-hidden pt-32 md:pt-36 lg:pt-46">
-      <Image src={aboutHeroImage} priority alt="About Image" className="absolute inset-0 z-0 h-full w-full object-cover" />
+      <Image src={aboutHeroImage} priority alt="Climate Forum entrance" className="absolute inset-0 z-0 h-full w-full object-cover" />
 
       <div className="from-dark absolute inset-0 z-10 bg-gradient-to-r to-transparent"></div>
 

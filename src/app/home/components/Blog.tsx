@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import blog01 from '@/assets/images/blog/blog-01.webp'
-import blog02 from '@/assets/images/blog/blog-02.webp'
-import blog03 from '@/assets/images/blog/blog-03.webp'
-import blog05 from '@/assets/images/blog/blog-05.webp'
+import blog01 from '../../../../public/assets/new/ribbon-gallery.webp'
+import blog02 from '../../../../public/assets/new/wetland-park-dam.webp'
+import blog03 from '../../../../public/assets/new/garden-galleria.webp'
+import blog05 from '../../../../public/assets/new/climate-commons-university.webp'
 
 type BlogType = {
   id: number

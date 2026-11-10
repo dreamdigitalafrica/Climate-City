@@ -1,5 +1,5 @@
 {
-  "masterplan": "assets/masterplan.jpg",
+  "masterplan": "assets/new/city-labelled-aerial.webp",
   "destinations": [
     {
       "id": "museum",
@@ -8,6 +8,21 @@
       "u": 52,
       "v": 47,
       "images": [
+        {
+          "src": "assets/new/cultural-centre.webp",
+          "title": "Cultural centre arrival",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/earthlight-gallery.webp",
+          "title": "Earthlight Gallery",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/ribbon-gallery.webp",
+          "title": "Ribbon Gallery",
+          "description": "Architectural concept for Climate City."
+        },
         {
           "src": "assets/museum-1.webp",
           "title": "Grand arrival atrium",
@@ -92,6 +107,21 @@
       "v": 18,
       "images": [
         {
+          "src": "assets/new/climate-commons-university.webp",
+          "title": "Climate Commons University",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/discovery-house.webp",
+          "title": "Discovery House",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/discovery-garden.webp",
+          "title": "Public learning garden",
+          "description": "Architectural concept for Climate City."
+        },
+        {
           "src": "assets/schools-1.webp",
           "title": "Learning commons",
           "description": "A welcoming learning commons brings shared study and informal gathering together."
@@ -170,6 +200,21 @@
       "v": 61,
       "images": [
         {
+          "src": "assets/new/courtyard-exchange.webp",
+          "title": "Courtyard Exchange",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/courtyard-shops.webp",
+          "title": "Shaded shopping streets",
+          "description": "Architectural concept for Climate City."
+        },
+        {
+          "src": "assets/new/garden-galleria.webp",
+          "title": "Garden Galleria",
+          "description": "Architectural concept for Climate City."
+        },
+        {
           "src": "assets/market-1.webp",
           "title": "Market hall",
           "description": "A generous covered hall brings local produce and everyday trade together."
@@ -208,6 +253,11 @@
       "u": 48,
       "v": 20,
       "images": [
+        {
+          "src": "assets/new/climate-forum.webp",
+          "title": "Climate Forum",
+          "description": "Architectural concept for Climate City."
+        },
         {
           "src": "assets/diplomatic-1.webp",
           "title": "Diplomatic reception",
@@ -325,6 +375,11 @@
       "u": 65,
       "v": 32,
       "images": [
+        {
+          "src": "assets/new/wetland-park-dam.webp",
+          "title": "Wetland Park Dam",
+          "description": "Architectural concept for Climate City."
+        },
         {
           "src": "assets/landscape-1.webp",
           "title": "The central green",
@@ -457,6 +512,11 @@
       "v": 10,
       "images": [
         {
+          "src": "assets/new/solar-building.webp",
+          "title": "Solar-roofed building",
+          "description": "Architectural concept for Climate City."
+        },
+        {
           "src": "assets/energy-1.webp",
           "title": "Clean Energy",
           "description": "The proposed energy strategy combines solar generation, storage and managed distribution."
@@ -474,6 +534,20 @@
           "src": "assets/food-1.webp",
           "title": "Food & Agriculture",
           "description": "Growing spaces connect fresh produce, practical learning and local livelihoods."
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "title": "Business District",
+      "category": "Enterprise",
+      "eyebrow": "Space for local enterprise.",
+      "description": "A proposed business district with workplaces, shared spaces and solar-roofed buildings.",
+      "images": [
+        {
+          "src": "assets/new/business-district.webp",
+          "title": "Business District",
+          "description": "Workplaces and shared public spaces within the proposed city."
         }
       ]
     }

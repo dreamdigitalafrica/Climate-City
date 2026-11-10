@@ -1,6 +1,6 @@
 'use client'
 
-import whyChooseImage from '@/assets/images/about/why-choose-image.webp'
+import whyChooseImage from '../../../../public/assets/new/discovery-garden.webp'
 import { Icon } from '@iconify/react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
 
           <div className="relative">
             <div className="overflow-hidden rounded-2xl lg:rounded-4xl">
-              <Image src={whyChooseImage} loading="eager" alt="Why Choose Image" className="w-full object-cover md:h-180 lg:h-full" />
+              <Image src={whyChooseImage} loading="eager" alt="Discovery House and public learning garden" className="w-full object-cover md:h-180 lg:h-full" />
             </div>
             <div className="bg-default-100 absolute inset-s-1/2 bottom-0 z-10 flex w-full max-w-[70%] -translate-x-1/2 translate-y-1/2 justify-center rounded-full p-2.5">
               <Link href="/contact" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 w-full rounded-full border border-dashed border-transparent px-5 py-3.75 text-center font-medium transition-all duration-300 hover:text-white">

@@ -1,6 +1,5 @@
 'use client'
 
-import riverPoster from '@/assets/images/hero/River.jpg'
 import heroLeftShape from '@/assets/images/icons/hero-left-shape.svg'
 import heroRightShape from '@/assets/images/icons/hero-right-shape.svg'
 import Image from 'next/image'
@@ -9,9 +8,11 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <section className="bg-default-950 relative min-h-screen overflow-hidden">
-      <video autoPlay muted loop playsInline poster={riverPoster.src} className="absolute inset-0 z-0 h-full w-full object-cover">
-        <source src="/River-Landscape.webm" type="video/webm" />
-      </video>
+      <picture>
+        <source media="(max-width: 640px)" srcSet="/assets/new/cultural-centre-640.webp" />
+        <source media="(max-width: 1024px)" srcSet="/assets/new/cultural-centre-1024.webp" />
+        <img src="/assets/new/cultural-centre.webp" alt="Climate City cultural centre with shaded terraces, landscaped gardens and a public entrance" fetchPriority="high" className="absolute inset-0 z-0 h-full w-full object-cover" />
+      </picture>
 
       <div className="bg-dark/50 absolute inset-0 z-10"></div>
 
@@ -32,7 +33,7 @@ const Hero = () => {
                   <h2 className="text-default-800 mb-3.75 text-xl font-medium md:mb-5">A connected vision for Climate City</h2>
 
                   <div>
-                    <img src="/images/blog/blog-01.avif" alt="" className="h-62.5 w-full rounded-lg object-cover md:h-50" />
+                    <img src="/assets/new/city-labelled-aerial.webp" alt="" className="h-62.5 w-full rounded-lg object-cover md:h-50" />
                   </div>
 
                   <div className="mt-5 flex items-center gap-4 md:gap-7.5">

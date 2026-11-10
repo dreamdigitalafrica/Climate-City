@@ -17,11 +17,11 @@ type CaseStudyType = {
 }
 
 const caseStudiesData = [
- {id:1,title:'Museum & Cultural Centre',image:'/images/about/case-study-01.avif',alt:'Template image placeholder',stats:[{label:'Experience',value:'Culture'},{label:'Gallery concept',value:'7 spaces'},{label:'Status',value:'Proposed'}]},
- {id:2,title:'Homes & Neighbourhoods',image:'/images/about/case-study-02.avif',alt:'Template image placeholder',stats:[{label:'Approach',value:'Mixed-use'},{label:'Delivery',value:'Phased'}]},
- {id:3,title:'Markets & Local Enterprise',image:'/images/about/case-study-03.avif',alt:'Template image placeholder',stats:[{label:'Focus',value:'Livelihoods'},{label:'Connections',value:'Local'}]},
- {id:4,title:'Water & Green Spaces',image:'/images/about/case-study-04.avif',alt:'Template image placeholder',stats:[{label:'Approach',value:'Site-led'},{label:'Focus',value:'Resilience'},{label:'Status',value:'Proposed'}]},
- {id:5,title:'Hotel & Waterfront',image:'/images/about/case-study-05.webp',alt:'Template image placeholder',stats:[{label:'Experience',value:'Hospitality'},{label:'Status',value:'Concept'}]}
+ {id:1,title:'Museum & Cultural Centre',image:'/assets/new/earthlight-gallery.webp',alt:'Climate City architectural concept',stats:[{label:'Experience',value:'Culture'},{label:'Gallery concept',value:'7 spaces'},{label:'Status',value:'Proposed'}]},
+ {id:2,title:'Homes & Neighbourhoods',image:'/assets/new/courtyard-shops.webp',alt:'Climate City architectural concept',stats:[{label:'Approach',value:'Mixed-use'},{label:'Delivery',value:'Phased'}]},
+ {id:3,title:'Markets & Local Enterprise',image:'/assets/new/garden-galleria.webp',alt:'Climate City architectural concept',stats:[{label:'Focus',value:'Livelihoods'},{label:'Connections',value:'Local'}]},
+ {id:4,title:'Water & Green Spaces',image:'/assets/new/wetland-park-dam.webp',alt:'Climate City architectural concept',stats:[{label:'Approach',value:'Site-led'},{label:'Focus',value:'Resilience'},{label:'Status',value:'Proposed'}]},
+ {id:5,title:'Hotel & Waterfront',image:'/assets/hotel-1.webp',alt:'Climate City architectural concept',stats:[{label:'Experience',value:'Hospitality'},{label:'Status',value:'Concept'}]}
 ]
 
 const CaseStudies = () => {

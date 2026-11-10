@@ -10,11 +10,11 @@ import tabIcon3 from '@/assets/images/icons/tab-icon-03.svg'
 import tabIcon4 from '@/assets/images/icons/tab-icon-04.svg'
 import tabIcon5 from '@/assets/images/icons/tab-icon-05.svg'
 
-import tabImage1 from '@/assets/images/about/tab-image-01.webp'
-import tabImage2 from '@/assets/images/about/tab-image-02.webp'
-import tabImage3 from '@/assets/images/about/tab-image-03.webp'
-import tabImage4 from '@/assets/images/about/tab-image-04.webp'
-import tabImage5 from '@/assets/images/about/tab-image-05.webp'
+import tabImage1 from '../../../../public/assets/new/courtyard-shops.webp'
+import tabImage2 from '../../../../public/assets/new/business-district.webp'
+import tabImage3 from '../../../../public/assets/new/discovery-house.webp'
+import tabImage4 from '../../../../public/assets/new/wetland-park-dam.webp'
+import tabImage5 from '../../../../public/assets/new/earthlight-gallery.webp'
 
 type IndustryType = {
   id: string

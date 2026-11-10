@@ -1,8 +1,8 @@
 'use client'
 
-import about01 from '@/assets/images/about/about-01.webp'
-import about02 from '@/assets/images/about/about-02.webp'
-import aboutImage02 from '@/assets/images/about/about-image-02.webp'
+import about01 from '../../../../public/assets/new/business-district.webp'
+import about02 from '../../../../public/assets/new/solar-building.webp'
+import aboutImage02 from '../../../../public/assets/new/courtyard-exchange.webp'
 import aboutIcon02 from '@/assets/images/icons/about-icon-02.svg'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -22,15 +22,15 @@ const AboutInfo = () => {
 
         <div className="mx-auto mb-10 grid grid-cols-2 gap-3.75 md:grid-cols-3 md:gap-5 lg:w-5xl lg:grid-cols-12 lg:gap-7.5">
           <div className="h-55 overflow-hidden rounded-3xl md:h-75 lg:col-span-5">
-            <Image src={about01} loading="eager" alt="Cargo Ship" className="h-full w-full object-cover" />
+            <Image src={about01} loading="eager" alt="Climate City business district" className="h-full w-full object-cover" />
           </div>
 
           <div className="h-55 overflow-hidden rounded-3xl md:h-75 lg:col-span-3">
-            <Image src={aboutImage02} loading="eager" alt="Wind Turbines" className="h-full w-full object-cover" />
+            <Image src={aboutImage02} loading="eager" alt="Climate City sustainable architecture" className="h-full w-full object-cover" />
           </div>
 
           <div className="col-span-2 h-55 overflow-hidden rounded-3xl md:col-span-1 md:h-75 lg:col-span-4">
-            <Image src={about02} loading="eager" alt="Solar Panels" className="h-full w-full object-cover" />
+            <Image src={about02} loading="eager" alt="Solar-roofed building" className="h-full w-full object-cover" />
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import serviceHeroImage from '@/assets/images/hero/service-image.jpg'
+import serviceHeroImage from '../../../../../public/assets/new/climate-forum.webp'
 import heroLeftShape from '@/assets/images/icons/hero-left-shape.svg'
 import heroRightShape from '@/assets/images/icons/hero-right-shape.svg'
 import Image from 'next/image'

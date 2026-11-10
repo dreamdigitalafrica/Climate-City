@@ -1,6 +1,6 @@
 'use client'
 
-import serviceImage1 from '@/assets/images/blog/service-image-01.webp'
+import serviceImage1 from '../../../../../public/assets/new/solar-building.webp'
 import Image from 'next/image'
 
 type StrategyListItemType = {

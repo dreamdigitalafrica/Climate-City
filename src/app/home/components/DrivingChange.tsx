@@ -1,8 +1,8 @@
 'use client'
 
-import aboutImage01 from '@/assets/images/about/about-image-01.webp'
-import aboutImage02 from '@/assets/images/about/about-image-02.webp'
-import aboutImage03 from '@/assets/images/about/about-image-03.webp'
+import aboutImage01 from '../../../../public/assets/new/courtyard-exchange.webp'
+import aboutImage02 from '../../../../public/assets/new/climate-commons-university.webp'
+import aboutImage03 from '../../../../public/assets/new/wetland-park-dam.webp'
 import aboutIcon01 from '@/assets/images/icons/about-icon-01.svg'
 import aboutIcon02 from '@/assets/images/icons/about-icon-02.svg'
 import aboutIcon03 from '@/assets/images/icons/about-icon-03.svg'
@@ -29,15 +29,15 @@ const DrivingChange = () => {
 
         <div className="mx-auto grid grid-cols-3 items-center gap-3.75 md:gap-7.5 lg:w-6xl lg:gap-10">
           <div className="mt-8 aspect-3/4 overflow-hidden rounded-3xl md:mt-20">
-            <Image src={aboutImage01} alt="Winding Road" className="h-full w-full object-cover" />
+            <Image src={aboutImage01} alt="Courtyard Exchange shops and shaded public space" className="h-full w-full object-cover" />
           </div>
 
           <div className="aspect-3/4 overflow-hidden rounded-3xl">
-            <Image src={aboutImage02} alt="Wind Turbines" className="h-full w-full object-cover" />
+            <Image src={aboutImage02} alt="Climate City sustainable architecture" className="h-full w-full object-cover" />
           </div>
 
           <div className="mt-8 aspect-3/4 overflow-hidden rounded-3xl md:mt-20">
-            <Image src={aboutImage03} alt="Lush forest and lake" className="h-full w-full object-cover" />
+            <Image src={aboutImage03} alt="Wetland Park Dam and landscaped paths" className="h-full w-full object-cover" />
           </div>
         </div>
 
