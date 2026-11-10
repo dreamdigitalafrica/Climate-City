@@ -1,6 +1,6 @@
 'use client'
 
-import serviceHeroImage from '../../../../../public/assets/new/climate-forum.webp'
+import serviceHeroImage from '../../../../../public/assets/new/sustainability-galleria.webp'
 import heroLeftShape from '@/assets/images/icons/hero-left-shape.svg'
 import heroRightShape from '@/assets/images/icons/hero-right-shape.svg'
 import Image from 'next/image'
@@ -15,10 +15,10 @@ const offersData = [{"id": 1, "label": "Shaded streets"}, {"id": 2, "label": "Pa
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col justify-between overflow-hidden pt-10 lg:pt-22">
-      <Image src={serviceHeroImage} priority alt="Sustainable design" className="absolute inset-0 z-0 h-full w-full object-cover" />
+    <section className="relative flex flex-col justify-between overflow-hidden pt-20 lg:pt-28">
+      <Image src={serviceHeroImage} priority alt="Garden Galleria with solar canopies, planted terraces and shaded public space" className="absolute inset-0 z-0 h-full w-full object-cover" />
 
-      <div className="bg-dark/60 absolute inset-0 z-10"></div>
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/65 via-black/40 to-black/25"></div>
 
       <div className="relative z-20 container flex h-full grow flex-col items-center justify-end pt-16 text-center md:pt-24">
         <div className="mx-auto mb-7.5 max-w-3xl md:mb-10 lg:mb-35">
