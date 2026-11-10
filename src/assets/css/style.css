@@ -31,3 +31,15 @@ File: Style CSS File
 @import "./_config.css";
 @import "./_swiper.css";
 @import "./_general.css";
+/* Responsive editorial typography, using the Mivora font families. */
+main h1,main h2,main h3{text-wrap:balance}main p{text-wrap:pretty}
+.welcome-heading{color:#fff;margin:0;max-width:100%;font-weight:500;letter-spacing:-.035em;text-shadow:0 2px 22px #0003}
+.welcome-intro{display:block;font-size:clamp(1.125rem,2.2vw,2rem);line-height:1.5;letter-spacing:.01em;margin-bottom:.3em}
+.welcome-name{display:block;font-size:clamp(2.75rem,8vw,7.5rem);line-height:1.06;min-height:1.15em;white-space:nowrap}
+.typing-caret{display:inline-block;width:2px;height:.75em;margin-left:.08em;background:currentColor;animation:typingBlink .8s step-end infinite}.typing-caret.finished{visibility:hidden}
+@keyframes typingBlink{50%{opacity:0}}
+.philosophy-section h3{line-height:1.35}.philosophy-section p{line-height:1.65}
+#case-study-track h3{font-size:clamp(1.25rem,1.8vw,1.6rem);line-height:1.3}
+#case-study-track h4{font-size:clamp(1.5rem,2.3vw,2.25rem);line-height:1.2}
+@media(max-width:639px){.welcome-hero,.welcome-hero>.container{min-height:85svh}.welcome-name{font-size:clamp(2.4rem,10.5vw,4rem)}.dam-film{min-height:65svh}.philosophy-section .grid{gap:16px}}
+@media(prefers-reduced-motion:reduce){.typing-caret{animation:none;display:none}}

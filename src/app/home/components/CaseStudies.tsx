@@ -80,7 +80,7 @@ const CaseStudies = () => {
                 <span className="text-default-500 text-sm font-normal tracking-tight uppercase">Destinations</span>
               </div>
               <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[40px]">
-                A connected city: <span className="text-default-500">places to discover</span> across the masterplan
+                Discover <span className="text-default-600">Climate City</span>
               </h2>
             </div>
             <div className="shrink-0">
@@ -106,8 +106,8 @@ const CaseStudies = () => {
                   <div className="flex flex-col gap-y-2.5 md:gap-y-5">
                     <h3 className="text-default-950 text-xl leading-snug font-medium lg:text-2xl">{item.title}</h3>
 
-                    <Link href="/explore.html" className="text-default-500 hover:text-default-900 inline-flex items-center gap-1.5 font-normal transition-colors md:mt-0">
-                      View detail
+                    <Link href={`/explore.html#${["museum", "homes", "market", "landscape", "hotel"][item.id - 1]}`} className="text-default-700 hover:text-default-900 inline-flex items-center gap-1.5 font-normal transition-colors md:mt-0">
+                      Explore this destination
                     </Link>
                   </div>
 

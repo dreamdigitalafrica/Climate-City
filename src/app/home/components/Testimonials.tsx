@@ -26,29 +26,29 @@ const testimonialsData = [
 
 const Testimonials = () => {
   return (
-    <section className="relative overflow-hidden bg-cover bg-center bg-no-repeat py-20 md:py-25 lg:py-32.5" style={{ backgroundImage: `url(${testimonialBg.src})` }}>
+    <section className="philosophy-section relative overflow-hidden bg-cover bg-center bg-no-repeat py-20 md:py-25 lg:py-32.5" style={{ backgroundImage: `url(${testimonialBg.src})` }}>
       <div className="bg-dark/60 absolute inset-0 z-0"></div>
 
       <div className="relative z-10 container text-center">
         <div className="mx-auto mb-6 lg:mb-17.5">
           <h2 className="mb-2.5 text-3xl leading-tight font-medium text-white md:text-[40px] lg:mb-4">
-            The ideas that <span className="text-primary-1">guide Climate City</span>
+            A city shaped by <span className="text-primary-1">what matters</span>
           </h2>
-          <p className="mx-auto max-w-sm text-base font-normal text-white/80">Our philosophy for a proposed African sustainable community</p>
+          <p className="mx-auto max-w-sm text-base font-normal text-white/80">People, nature and opportunity guide the way we plan.</p>
         </div>
 
         <div className="grid grid-cols-1 items-stretch gap-5 text-start md:grid-cols-3 lg:grid-cols-5 lg:gap-6">
           {testimonialsData.map((item, index) => (
             <div key={item.id} className="relative rounded-xl bg-white p-3.75 md:p-5">
-              <div className="flex h-full flex-col justify-between gap-y-7.5 md:gap-y-10 lg:gap-y-28.5">
-                <div className={`flex items-center gap-3.75 ${!item.image ? 'mb-5' : ''}`}>
+              <div className="flex h-full flex-col justify-between gap-y-7.5 md:gap-y-10 lg:gap-y-10">
+                <div className={`flex items-center gap-3.75 min-h-14`}>
                   {item.image && <Image src={item.image} loading="lazy" alt="Template portrait placeholder" className="size-11.5 rounded-full object-cover" />}
                   <div className="flex flex-col gap-y-0.75">
                     <h3 className="text-default-950 text-lg font-medium">{item.name}</h3>
-                    <span className="text-md text-default-500 font-normal">{item.role}</span>
+                    <span className="text-sm text-default-600 font-normal">{item.role}</span>
                   </div>
                 </div>
-                <p className="text-default-500 text-base leading-relaxed font-normal">{item.desc}</p>
+                <p className="text-default-700 text-base leading-relaxed font-normal">{item.desc}</p>
               </div>
               {index < testimonialsData.length - 1 && <Image src={testimonialShape} loading="eager" alt="Connector" className="absolute -inset-e-6.5 top-1/2 z-20 hidden h-12 w-7 -translate-y-1/2 lg:block" />}
             </div>

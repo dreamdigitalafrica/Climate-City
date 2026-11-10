@@ -1,24 +1,45 @@
 'use client'
 
-import ctaBgImage from '@/assets/images/blog/cta-bg-image.webp'
 import Link from 'next/link'
+import { useEffect, useRef, useState } from 'react'
 
-const Cta = () => {
+export default function Cta() {
+  const video = useRef<HTMLVideoElement>(null)
+  const [paused, setPaused] = useState(false)
+  const manualPause = useRef(false)
+  useEffect(() => {
+    const el = video.current
+    if (!el) return
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    manualPause.current = reduce
+    setPaused(reduce)
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !manualPause.current) el.play().catch(() => setPaused(true))
+      else el.pause()
+    }, { threshold: .1 })
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+  function toggle() {
+    const el = video.current
+    if (!el) return
+    if (el.paused) { manualPause.current = false; el.play().then(() => setPaused(false)).catch(() => setPaused(true)) }
+    else { manualPause.current = true; el.pause(); setPaused(true) }
+  }
   return (
-    <section className="relative overflow-hidden bg-cover bg-center bg-no-repeat py-15 md:py-25 lg:py-45" style={{ backgroundImage: `url(${ctaBgImage.src})` }}>
-      <div className="bg-dark/60 absolute inset-0 z-0"></div>
-
-      <div className="container-small relative z-10 mx-auto text-center">
-        <div className="mx-auto flex max-w-3xl flex-col items-center">
-          <h2 className="mb-3.75 max-w-3xl text-3xl leading-[1.1] font-medium tracking-tight text-white md:text-5xl lg:text-6xl">Help shape a more sustainable African city</h2>
-          <p className="md:text-md mb-5 max-w-lg text-sm leading-relaxed font-normal text-white md:mb-7.5 lg:mb-10">Connect with Mikoshel about the vision, partnerships and proposed opportunities within Climate City.</p>
-          <Link href="/contact" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-flex rounded-full border border-dashed border-transparent px-5 py-2.5 text-center font-medium transition-all duration-300 hover:text-white md:py-3.75">
-            Start a conversation
-          </Link>
+    <section className="dam-film relative overflow-hidden py-24 md:py-32 lg:py-45">
+      <video ref={video} muted loop playsInline preload="metadata" poster="/assets/new/wetland-park-dam.webp" className="absolute inset-0 h-full w-full object-cover" aria-label="Drone flyover of the Climate City Wetland Park Dam concept">
+        <source src="/assets/video/wetland-park-dam.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/45" />
+      <div className="container relative z-10 text-center">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight">A living landscape.<br />A shared future.</h2>
+          <p className="mx-auto mt-6 mb-8 max-w-xl text-base md:text-lg leading-relaxed text-white/95">Discover how water, green spaces and thoughtful development come together in the Climate City vision.</p>
+          <Link href="/contact" className="inline-flex rounded-full bg-primary-1 px-6 py-3 text-default-950 font-medium hover:bg-white transition-colors">Start a conversation</Link>
         </div>
       </div>
+      <button type="button" onClick={toggle} aria-label={paused ? 'Play landscape video' : 'Pause landscape video'} className="absolute right-5 bottom-5 z-20 rounded-full border border-white/40 bg-black/35 px-4 py-2 text-sm text-white">{paused ? 'Play' : 'Pause'}</button>
     </section>
   )
 }
-
-export default Cta
