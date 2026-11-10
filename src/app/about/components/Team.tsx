@@ -1,8 +1,7 @@
 'use client'
 import { useRef, useState } from 'react'
 import Image from 'next/image'
-import { Icon } from '@iconify/react'
-type TeamMemberType = { id:number; name:string; role:string; image:string; bio:string; linkedin?:string; instagram?:string; position?:string }
+type TeamMemberType = { id:number; name:string; role:string; image:string; bio:string; linkedin?:string; x?:string; position?:string }
 const teamMembersData: TeamMemberType[] = [
  {id:1,name:'Chimezie Micheal Lawrence',role:'CEO & Founder',image:'/assets/mikoshel-ceo.jpg',bio:'An Economics graduate of the University of Port Harcourt, Chimezie brings experience in real estate development, construction materials supply and residential project delivery. His focus is responsible growth and long-term value.'},
  {id:2,name:'Michelle Lawrence',role:'Chief Operating Officer',image:'/assets/mikoshel-coo.jpg',bio:'Michelle brings experience in international sourcing, supplier coordination and customer relationships. Her sourcing career began in Turkey in 2017 and expanded into China procurement and automobiles. She is a Mass Communication graduate of Imo State University.'},
@@ -29,10 +28,10 @@ export default function Team({ standalone = false }: { standalone?: boolean }) {
        {item.name && <h3 className="mt-5 text-xl font-medium text-white">{item.name}</h3>}
        <p className="mt-2 text-base leading-snug text-white/60">{item.role}</p>
       </button>
-      {(item.linkedin || item.instagram) && <div className="absolute bottom-0 right-0 flex gap-4 rounded-tl-3xl bg-[#1c1c1c] px-5 py-4">
-       {item.linkedin && <a href={item.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`${item.name} on LinkedIn`} className="text-primary-1 hover:text-white"><Icon icon="tabler:brand-linkedin" width={24}/></a>}
-       {item.instagram && <a href={item.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${item.name} on Instagram`} className="text-primary-1 hover:text-white"><Icon icon="tabler:brand-instagram" width={24}/></a>}
-      </div>}
+      <div className="team-social-wrap absolute bottom-0 right-0 flex items-center gap-1 rounded-tl-3xl bg-[#1c1c1c] pl-3 pt-2" aria-label={`${item.name || item.role} social profiles`}>
+       <SocialProfile network="LinkedIn" url={item.linkedin} name={item.name || item.role} />
+       <SocialProfile network="X" url={item.x} name={item.name || item.role} />
+      </div>
      </article>)}
     </div>
    </div>
@@ -47,4 +46,12 @@ export default function Team({ standalone = false }: { standalone?: boolean }) {
    </dialog>
   </section>
  )
+}
+
+function SocialProfile({ network, url, name }: { network: 'LinkedIn' | 'X'; url?: string; name: string }) {
+ const icon = <svg viewBox="0 0 24 24" width="23" height="23" fill="currentColor" aria-hidden="true">
+  {network === 'LinkedIn' ? <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96C2 21.32 2.69 22 3.55 22h16.9c.86 0 1.55-.68 1.55-1.52V3.52C22 2.68 21.31 2 20.45 2ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8V14.1c0-1.11-.02-2.53-1.54-2.53-1.55 0-1.79 1.21-1.79 2.45v4.73H9.52V9.2h2.83v1.31h.04c.39-.74 1.36-1.53 2.8-1.53 3 0 3.56 1.98 3.56 4.55v5.22Z" /> : <path d="M18.9 2H22l-6.78 7.75L23.2 22h-6.25l-4.9-7.42L5.56 22H2.43l8.17-9.34L.8 2h6.4l4.43 6.77L18.9 2Zm-1.1 18h1.73L6.25 3.88H4.4L17.8 20Z" />}
+ </svg>
+ const classes = 'flex size-11 items-center justify-center rounded-full text-primary-1 transition-transform duration-200 hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-primary-1 motion-reduce:transform-none'
+ return url ? <a className={classes} href={url} target="_blank" rel="noopener noreferrer" aria-label={`${name} on ${network}`}>{icon}</a> : <span className={classes} role="link" aria-disabled="true" aria-label={`${name} on ${network}: profile link pending`} title={`${network} profile link coming soon`}>{icon}</span>
 }
