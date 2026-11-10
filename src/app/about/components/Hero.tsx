@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="relative z-20 container flex flex-col lg:justify-end lg:pb-40">
         <div className="grid w-full grid-cols-1 gap-12 md:gap-5 lg:grid-cols-12 lg:gap-2.5">
           <div className="lg:col-span-7">
-            <h1 className="mb-2.5 text-4xl leading-[1.1] font-medium text-white md:text-[80px]">
+            <h1 className="mb-2.5 text-4xl leading-[1.1] font-medium text-white md:text-[64px]">
               About <br className="hidden lg:block" />
               Climate City
             </h1>

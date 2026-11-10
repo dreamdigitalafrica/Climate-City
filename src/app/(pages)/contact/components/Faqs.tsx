@@ -21,7 +21,7 @@ const Faqs = () => {
           <div className="border-default-200 mb-2.5 inline-flex rounded-full border px-3.75 py-1.25">
             <span className="text-default-500 text-sm font-normal tracking-tight uppercase">FAQs</span>
           </div>
-          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[40px]">
+          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[34px]">
             Your questions about <span className="text-default-400">Climate City</span>
           </h2>
         </div>

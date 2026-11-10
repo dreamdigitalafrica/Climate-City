@@ -16,7 +16,7 @@ export default function Team() {
  return (
   <section id="leadership" className="bg-[#1c1c1c] py-20 text-white lg:py-28">
    <div className="container">
-    <h2 className="mb-10 text-center text-3xl md:text-[40px] font-medium text-white">Leadership</h2>
+    <h2 className="mb-10 text-center text-3xl md:text-[34px] font-medium text-white">Leadership</h2>
     <div className="mx-auto grid max-w-3xl grid-cols-1 gap-8 sm:grid-cols-2">
      {teamMembersData.map(item=><button key={item.id} type="button" onClick={e=>open(item,e.currentTarget)} aria-haspopup="dialog" aria-label={'Read about '+item.name} className="group text-left rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-8 focus-visible:outline-primary-1">
       <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-default-800"><Image src={item.image} width={449} height={540} alt={item.name} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" /></div>

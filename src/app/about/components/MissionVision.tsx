@@ -24,7 +24,7 @@ const MissionVision = () => {
           <div className="border-default-200 mb-2.5 inline-flex rounded-full border px-3.75 py-1.25">
             <span className="text-default-500 text-xs font-normal tracking-tight uppercase md:text-sm">Our philosophy</span>
           </div>
-          <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[40px]">
+          <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[34px]">
             People, nature and opportunity: <span className="text-default-500 font-medium">our guiding approach</span> explained
           </h2>
         </div>

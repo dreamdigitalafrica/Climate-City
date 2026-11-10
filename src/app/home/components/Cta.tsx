@@ -34,8 +34,8 @@ export default function Cta() {
       <div className="absolute inset-0 bg-black/45" />
       <div className="container relative z-10 text-center">
         <div className="mx-auto max-w-3xl">
-          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight">A living landscape.<br />A shared future.</h2>
-          <p className="mx-auto mt-6 mb-8 max-w-xl text-base md:text-lg leading-relaxed text-white/95">Discover how water, green spaces and thoughtful development come together in the Climate City vision.</p>
+          <h2 className="text-white text-3xl md:text-5xl lg:text-5xl font-medium leading-tight tracking-tight">Water sustains the city.</h2>
+          <p className="mx-auto mt-6 mb-8 max-w-xl text-base md:text-lg leading-relaxed text-white/95">Our wetland and reservoir concept brings water management, habitat and public space into one landscape.</p>
           <Link href="/contact" className="inline-flex rounded-full bg-primary-1 px-6 py-3 text-default-950 font-medium hover:bg-white transition-colors">Start a conversation</Link>
         </div>
       </div>

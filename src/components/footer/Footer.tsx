@@ -27,10 +27,10 @@ const Footer = () => {
 
               <div>
                 <h2 className="text-default-950 mb-3.75 leading-tight font-medium md:text-2xl lg:mb-8.75 lg:text-3xl">
-                  We believe <span className="text-default-500">real change</span> starts with the places we build.
+                  Help build <span className="text-default-600">Climate City’s future.</span>
                 </h2>
 
-                <p className="text-default-500 mb-3.75 text-base font-normal">Connect with Mikoshel about Climate City.</p>
+                <p className="text-default-500 mb-3.75 text-base font-normal">Discuss your interest in Climate City.</p>
 
                 <div className="w-full lg:max-w-lg">
                   <form onSubmit={(event)=>{event.preventDefault();const email=new FormData(event.currentTarget).get("email");window.location.href="https://wa.me/2347082064914?text="+encodeURIComponent("Climate City enquiry. Please contact me at "+email)}} className="border-default-200 focus-within:border-default-800 relative items-center rounded-full border bg-white p-1.5 transition-all md:flex">

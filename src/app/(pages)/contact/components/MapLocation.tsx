@@ -62,7 +62,7 @@ const MapLocation = () => {
     <section className="bg-dark relative overflow-hidden py-20 text-white md:py-25 lg:py-32">
       <div className="container">
         <div className="mx-auto mb-6 max-w-xl text-center lg:mb-17.5 lg:max-w-3xl">
-          <h2 className="text-3xl leading-[1.2] font-medium text-white md:text-[40px]">
+          <h2 className="text-3xl leading-[1.2] font-medium text-white md:text-[34px]">
             Connect with <span className="text-primary-1">the right conversation</span> about Climate City
           </h2>
         </div>

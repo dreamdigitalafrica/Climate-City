@@ -46,8 +46,8 @@ const SustainabilityNumbers = () => {
           </div>
         </div>
 
-        <h2 className="text-default-950 mx-auto mb-6 max-w-xl text-3xl leading-tight font-medium md:text-[40px] lg:mb-17.5 lg:max-w-3xl">
-          A framework for <span className="text-default-500">homes, services and opportunity.</span>
+        <h2 className="text-default-950 mx-auto mb-6 max-w-xl text-3xl leading-tight font-medium md:text-[34px] lg:mb-17.5 lg:max-w-3xl">
+          The proposed city <span className="text-default-600">at a glance.</span>
         </h2>
 
         <div className="border-default-300 divide-default-300 mx-auto grid grid-cols-2 divide-y-0 divide-dashed rounded-lg border border-dashed bg-white md:grid-cols-4 md:divide-x lg:w-10/12">

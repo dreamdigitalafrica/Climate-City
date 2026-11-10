@@ -21,10 +21,10 @@ type BlogType = {
 }
 
 const blogsData = [
- {id:1,title:'Designing for shade and everyday comfort',image:blog01,category:'Design',date:'Our approach',link:'/sustainable-design'},
- {id:2,title:'Water as part of the living landscape',image:blog02,category:'Water',date:'Our approach',link:'/sustainable-design'},
- {id:3,title:'Connecting local enterprise to city life',image:blog03,category:'Enterprise',date:'Our approach',link:'/about'},
- {id:4,title:'Learning spaces for the next generation',image:blog05,category:'Education',date:'Our approach',link:'/home#sectors'}
+ {id:1,title:'Shade before cooling',image:blog01,category:'Design',date:'Our approach',link:'/sustainable-design'},
+ {id:2,title:'Water, wetlands and resilience',image:blog02,category:'Water',date:'Our approach',link:'/sustainable-design'},
+ {id:3,title:'Space for Nigerian enterprise',image:blog03,category:'Enterprise',date:'Our approach',link:'/about'},
+ {id:4,title:'Learning beyond the classroom',image:blog05,category:'Education',date:'Our approach',link:'/home#sectors'}
 ]
 
 const Blog = () => {
@@ -36,8 +36,8 @@ const Blog = () => {
             <div className="border-default-200 mb-3 inline-flex rounded-full border px-3.75 py-1">
               <span className="text-default-500 text-xs font-normal tracking-tight uppercase md:text-sm">Our thinking</span>
             </div>
-            <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[40px] lg:w-xl">
-              Building a city through <span className="text-default-500">practical design</span> and local knowledge
+            <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[34px] lg:w-xl">
+              Sustainability <span className="text-default-600">in the details.</span>
             </h2>
           </div>
 
@@ -75,7 +75,7 @@ const Blog = () => {
                         <div className="from-dark/40 pointer-events-none absolute inset-0 bg-gradient-to-b"></div>
                         <div className="absolute inset-s-5 inset-e-5 top-5 z-10 flex items-center gap-2">
                           <span className="bg-primary-1 text-default-950 inline-flex rounded-full px-2.5 py-1.25 text-sm font-normal">{item.category}</span>
-                          <span className="inline-flex rounded-full border border-white px-2.5 py-1.25 text-sm font-normal text-white">{item.date}</span>
+
                         </div>
                       </div>
                       <h3 className="text-default-950 text-lg leading-snug font-medium transition-colors duration-300 md:text-xl">{item.title}</h3>

@@ -27,10 +27,10 @@ type ServiceType = {
 }
 
 const servicesData = [
- {id:1,title:'Climate-responsive buildings',desc:'Shade, daylight and orientation will guide spaces designed for local conditions.',icon:flowerIcon,illustration:serviceItem1,altIcon:'',altIllustration:'Template illustration'},
- {id:2,title:'Connected mobility',desc:'Walking, cycling and shared transport are part of the proposed network.',icon:truckIcon,illustration:serviceItem2,altIcon:'',altIllustration:'Template illustration'},
- {id:3,title:'Water and landscape',desc:'Rainwater, drainage and planting will be planned together around the site.',icon:locationIcon,illustration:serviceItem3,altIcon:'',altIllustration:'Template illustration'},
- {id:4,title:'Efficient city services',desc:'Energy and maintenance systems designed to support dependable daily life.',icon:fleetIcon,illustration:serviceItem4,altIcon:'',altIllustration:'Template illustration'}
+ {id:1,title:'Climate-responsive buildings',desc:'Shade and natural airflow first, to reduce reliance on mechanical cooling.',icon:flowerIcon,illustration:serviceItem1,altIcon:'',altIllustration:'Template illustration'},
+ {id:2,title:'Connected mobility',desc:'Shorter everyday journeys through connected walking, cycling and shared transport routes.',icon:truckIcon,illustration:serviceItem2,altIcon:'',altIllustration:'Template illustration'},
+ {id:3,title:'Water and landscape',desc:'Capture rain, manage runoff and support planting suited to the site.',icon:locationIcon,illustration:serviceItem3,altIcon:'',altIllustration:'Template illustration'},
+ {id:4,title:'Efficient city services',desc:'Plan energy, water and maintenance together for dependable services.',icon:fleetIcon,illustration:serviceItem4,altIcon:'',altIllustration:'Template illustration'}
 ]
 
 const Services = () => {
@@ -42,9 +42,8 @@ const Services = () => {
             <div className="border-default-500 mb-2.5 inline-flex rounded-full border px-3.75 py-1.25">
               <span className="text-default-500 text-xs font-normal tracking-tight uppercase md:text-sm">Sustainable design</span>
             </div>
-            <h2 className="text-3xl leading-tight font-medium text-white md:text-[40px]">
-              Better buildings & <br />
-              shared city <span className="text-primary-1">systems</span>
+            <h2 className="text-3xl leading-tight font-medium text-white md:text-[34px]">
+              Designed for comfort.<br />Planned to <span className="text-primary-1">use less.</span>
             </h2>
           </div>
 
@@ -88,7 +87,7 @@ const Services = () => {
                     </div>
                     <h3 className="text-2xl font-medium text-white">{service.title}</h3>
                     <p className="text-default-300 mb-2.5 text-base leading-relaxed font-normal">{service.desc}</p>
-                    <div className="bg-dark hover:bg-primary-1 hover:text-dark inline-flex rounded-full px-5 py-2.5 font-medium text-white transition-all duration-300">View detail</div>
+                    <div className="bg-dark hover:bg-primary-1 hover:text-dark inline-flex rounded-full px-5 py-2.5 font-medium text-white transition-all duration-300">Our design approach</div>
                   </div>
                   <div className="pointer-events-none">
                     <Image src={service.illustration} alt={service.altIllustration} className="h-34" />

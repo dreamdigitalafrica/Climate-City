@@ -15,8 +15,8 @@ const Hero = () => {
 
       <div className="relative z-20 container flex h-full grow flex-col items-center justify-end pt-16 text-center md:pt-24">
         <div className="mx-auto mb-7.5 max-w-3xl md:mb-10 lg:mb-35">
-          <h1 className="mb-2.5 text-4xl leading-[1.1] font-medium text-white md:text-[80px]">Contact us</h1>
-          <p className="text-md mx-auto max-w-lg leading-relaxed font-normal text-white md:mb-5 md:text-base">Connect with Mikoshel about Climate City, partnerships, investment enquiries or the proposed destinations.</p>
+          <h1 className="mb-2.5 text-4xl leading-[1.1] font-medium text-white md:text-[64px]">Contact us</h1>
+          <p className="text-md mx-auto max-w-lg leading-relaxed font-normal text-white md:mb-5 md:text-base">Speak with Mikoshel about partnerships, investment or the proposed city.</p>
         </div>
 
         <div className="bg-default-50 border-default-200/50 relative mx-auto mt-auto rounded-t-xl border border-b-0 px-3.75 pt-3.75 shadow-lg md:w-2xl md:px-7 md:pt-6 lg:w-6xl lg:pt-7">

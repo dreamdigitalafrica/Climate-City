@@ -31,9 +31,9 @@ const Solutions = () => {
           </div>
 
           <div>
-            <h2 className="text-default-950 mb-2.5 text-3xl leading-[1.2] font-medium md:mb-5 md:text-[40px]">Sustainability begins with the plan</h2>
+            <h2 className="text-default-950 mb-2.5 text-3xl leading-[1.2] font-medium md:mb-5 md:text-[34px]">Design first. Reduce demand.</h2>
             <p className="text-default-500 mb-5 text-base leading-relaxed font-normal">
-              Climate City’s proposed approach brings buildings, public space and infrastructure together. Each measure will be tested through site studies and engineering, with performance targets established as the design develops.
+              Shade, water and materials are masterplanning decisions. Site studies will test our approach and establish performance targets.
             </p>
 
             <ul className="list text-default-500 list-inside list-disc space-y-2.5 font-normal">

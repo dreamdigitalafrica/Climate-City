@@ -5,7 +5,7 @@ const ContactForm = () => {
     <section id="enquiry" className="bg-default-50 py-20 md:py-25 lg:py-32">
       <div className="container">
         <div className="mx-auto mb-6 max-w-3xl text-center lg:mb-17.5">
-          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[40px]">
+          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[34px]">
             Let’s start a <span className="text-default-400">conversation</span>
           </h2>
         </div>

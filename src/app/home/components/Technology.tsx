@@ -24,10 +24,8 @@ const Technology = () => {
       <div className="container">
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-12 lg:gap-0">
           <div className="flex flex-col items-start md:col-span-12 lg:col-span-4">
-            <h2 className="text-default-950 mb-5 text-3xl leading-tight font-medium md:text-[40px] lg:mb-7.5">
-              <span className="text-default-500">Low-emission</span> city services
-              <br />
-              powered by <span className="text-default-500">innovation</span>
+            <h2 className="text-default-950 mb-5 text-3xl leading-tight font-medium md:text-[34px] lg:mb-7.5">
+              Energy and water.<br /><span className="text-default-600">Planned for the long term.</span>
             </h2>
 
             <Link
@@ -45,7 +43,7 @@ const Technology = () => {
           </div>
 
           <div className="flex flex-col gap-y-5 md:col-span-6 md:gap-y-7.5 lg:col-span-3 lg:gap-y-22.5">
-            <p className="text-default-500 text-base leading-relaxed font-normal">Climate City plans to combine practical design with efficient infrastructure. Systems will be selected through site studies and specialist engineering.</p>
+            <p className="text-default-500 text-base leading-relaxed font-normal">Our priorities are reliable supply, lower demand and responsible reuse. Engineering studies will determine the right systems for the site.</p>
 
             <div className="space-y-3.75">
               {technologyFeaturesData.map((item) => (

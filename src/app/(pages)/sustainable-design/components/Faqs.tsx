@@ -11,7 +11,7 @@ type FaqItemType = {
   active?: boolean
 }
 
-const faqsData: FaqItemType[] = [{"id": 1, "question": "What is Climate City?", "answer": "Climate City is a proposed sustainable community in Nasarawa State, Nigeria, powered by Mikoshel.", "controlsId": "faq-collapse-0", "headingId": "faq-heading-0", "active": true}, {"id": 2, "question": "Is the city already built?", "answer": "The project is in pre-development. Images and the interactive masterplan present concepts, with delivery subject to studies, approvals, funding and partnerships.", "controlsId": "faq-collapse-1", "headingId": "faq-heading-1", "active": false}, {"id": 3, "question": "How can I discuss a partnership?", "answer": "Contact Mikoshel on +234 708 206 4914 or use this enquiry form to prepare a WhatsApp message.", "controlsId": "faq-collapse-2", "headingId": "faq-heading-2", "active": false}, {"id": 4, "question": "Can I arrange a visit?", "answer": "Please contact the team before travelling. Visits and project discussions require prior arrangements.", "controlsId": "faq-collapse-3", "headingId": "faq-heading-3", "active": false}, {"id": 5, "question": "Where can I find the masterplan?", "answer": "Use Explore to open the conceptual city map and its destination galleries. A downloadable project overview is also available through the website.", "controlsId": "faq-collapse-4", "headingId": "faq-heading-4", "active": false}]
+const faqsData: FaqItemType[] = [{"id": 1, "question": "How will the design respond to the climate?", "answer": "Orientation, shade, natural airflow and sheltered public spaces will be assessed against local heat and rainfall before mechanical systems are selected.", "controlsId": "faq-collapse-0", "headingId": "faq-heading-0", "active": true}, {"id": 2, "question": "How will water be managed?", "answer": "The plan considers rainwater capture, drainage, treatment and safe reuse together. Reservoir and dam concepts depend on hydrological studies and approvals.", "controlsId": "faq-collapse-1", "headingId": "faq-heading-1", "active": false}, {"id": 3, "question": "What does inclusion mean for Climate City?", "answer": "Mixed-income homes, accessible public spaces and services, and opportunities for local businesses are priorities for the proposed development.", "controlsId": "faq-collapse-2", "headingId": "faq-heading-2", "active": false}, {"id": 4, "question": "Are environmental performance targets confirmed?", "answer": "Targets will be established through design and engineering studies. Proposed measures and certification ambitions are not verified operating results.", "controlsId": "faq-collapse-3", "headingId": "faq-heading-3", "active": false}, {"id": 5, "question": "How can organisations contribute?", "answer": "Contact Mikoshel to discuss design, infrastructure, operations, research or community partnerships.", "controlsId": "faq-collapse-4", "headingId": "faq-heading-4", "active": false}]
 
 const Faqs = () => {
   return (
@@ -21,7 +21,7 @@ const Faqs = () => {
           <div className="border-default-200 mb-2.5 inline-flex rounded-full border px-3.75 py-1.25">
             <span className="text-default-500 text-sm font-normal tracking-tight uppercase">FAQs</span>
           </div>
-          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[40px]">
+          <h2 className="text-default-900 text-3xl leading-[1.2] font-medium md:text-[34px]">
             Your questions about <span className="text-default-400">Climate City</span>
           </h2>
         </div>

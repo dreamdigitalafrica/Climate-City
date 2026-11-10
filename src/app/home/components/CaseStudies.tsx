@@ -3,25 +3,12 @@
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 
-type CaseStudyStatType = {
-  label: string
-  value: string
-}
-
-type CaseStudyType = {
-  id: number
-  title: string
-  image: string
-  alt: string
-  stats: CaseStudyStatType[]
-}
-
 const caseStudiesData = [
- {id:1,title:'Museum & Cultural Centre',image:'/assets/new/earthlight-gallery.webp',alt:'Climate City architectural concept',stats:[{label:'Experience',value:'Culture'},{label:'Gallery concept',value:'7 spaces'},{label:'Status',value:'Proposed'}]},
- {id:2,title:'Homes & Neighbourhoods',image:'/assets/new/courtyard-shops.webp',alt:'Climate City architectural concept',stats:[{label:'Approach',value:'Mixed-use'},{label:'Delivery',value:'Phased'}]},
- {id:3,title:'Markets & Local Enterprise',image:'/assets/new/garden-galleria.webp',alt:'Climate City architectural concept',stats:[{label:'Focus',value:'Livelihoods'},{label:'Connections',value:'Local'}]},
- {id:4,title:'Water & Green Spaces',image:'/assets/new/wetland-park-dam.webp',alt:'Climate City architectural concept',stats:[{label:'Approach',value:'Site-led'},{label:'Focus',value:'Resilience'},{label:'Status',value:'Proposed'}]},
- {id:5,title:'Hotel & Waterfront',image:'/assets/hotel-1.webp',alt:'Climate City architectural concept',stats:[{label:'Experience',value:'Hospitality'},{label:'Status',value:'Concept'}]}
+ {id:1,title:'Museum & Cultural Centre',image:'/assets/new/earthlight-gallery.webp',alt:'Climate City architectural concept',caption:"African art, craft and shared cultural space."},
+ {id:2,title:'Homes & Neighbourhoods',image:'/assets/new/courtyard-shops.webp',alt:'Climate City architectural concept',caption:"Neighbourhoods planned around daily needs."},
+ {id:3,title:'Markets & Local Enterprise',image:'/assets/new/garden-galleria.webp',alt:'Climate City architectural concept',caption:"Places for local businesses to reach new customers."},
+ {id:4,title:'Water & Green Spaces',image:'/assets/new/wetland-park-dam.webp',alt:'Climate City architectural concept',caption:"Water management with space for nature and recreation."},
+ {id:5,title:'Hotel & Waterfront',image:'/assets/hotel-1.webp',alt:'Climate City architectural concept',caption:"Hospitality connected to culture and the landscape."}
 ]
 
 const CaseStudies = () => {
@@ -79,7 +66,7 @@ const CaseStudies = () => {
               <div className="border-default-200 mb-3 inline-flex rounded-full border px-3.75 py-1">
                 <span className="text-default-500 text-sm font-normal tracking-tight uppercase">Destinations</span>
               </div>
-              <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[40px]">
+              <h2 className="text-default-950 text-3xl leading-tight font-medium md:text-[34px]">
                 Discover <span className="text-default-600">Climate City</span>
               </h2>
             </div>
@@ -107,7 +94,7 @@ const CaseStudies = () => {
                     <h3 className="text-default-950 text-xl leading-snug font-medium lg:text-2xl">{item.title}</h3>
 
                     <Link href={`/explore.html#${["museum", "homes", "market", "landscape", "hotel"][item.id - 1]}`} className="text-default-700 hover:text-default-900 inline-flex items-center gap-1.5 font-normal transition-colors md:mt-0">
-                      Explore this destination
+                      View destination
                     </Link>
                   </div>
 
@@ -115,18 +102,7 @@ const CaseStudies = () => {
                     <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
                   </div>
 
-                  <div
-                    className={`border-default-200 bg-default-50/30 divide-default-200 grid grid-cols-1 gap-x-7.5 gap-y-5 divide-y rounded-lg border border-dashed p-3.75 md:col-span-2 lg:divide-y-0 lg:divide-dashed lg:p-5 ${
-                      item.stats.length === 3 ? 'lg:grid-cols-3 lg:divide-x' : 'lg:grid-cols-2 lg:divide-x'
-                    }`}
-                  >
-                    {item.stats.map((stat, index) => (
-                      <div key={index} className="flex flex-col justify-between gap-y-2.5 lg:gap-y-5">
-                        <span className="text-default-800 text-sm font-normal">{stat.label}</span>
-                        <h4 className="text-default-500 mb-5 text-3xl font-medium lg:mb-0 lg:text-[40px]">{stat.value}</h4>
-                      </div>
-                    ))}
-                  </div>
+                  <p className="text-default-700 text-sm leading-relaxed md:col-span-2">{item.caption}</p>
                 </div>
               </div>
             ))}
