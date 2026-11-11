@@ -88,3 +88,6 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 .aerial-locked .world-controls{display:none!important}
 .aerial-locked #aerial{transform:none!important;animation:none!important;transition:none!important;filter:none!important;opacity:1!important}
 .aerial-locked .world-vignette{display:none!important}
+
+#markers .marker.image-label-hit{min-height:0;min-width:0;padding:0;border-radius:999px}
+#markers .marker.image-label-hit:hover,#markers .marker.image-label-hit:focus-visible{outline-width:1px;outline-offset:0;background:rgba(126,234,87,.06)}

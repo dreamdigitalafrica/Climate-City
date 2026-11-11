@@ -72,3 +72,12 @@ main h1,main h2,main h3{text-wrap:balance}main p{text-wrap:pretty}
 .profile-dialog .profile-body{padding:clamp(24px,5vw,40px)}
 .profile-dialog h2{color:#212121;font-size:clamp(26px,4vw,36px);line-height:1.2}
 .profile-dialog p{color:#414941;line-height:1.75;font-size:16px}
+
+/* Centre the sector disclosures while retaining balanced number and toggle columns. */
+.about-restored #sectors{width:100%;max-width:880px;margin-inline:auto;text-align:center}
+.about-restored #sectors summary{display:grid;grid-template-columns:30px minmax(0,1fr) 30px;gap:12px;text-align:center}
+.about-restored #sectors .sector-number{margin:0;text-align:center}
+.about-restored #sectors .toggle{display:none}
+.about-restored #sectors .sector-content{max-width:720px;margin-inline:auto;text-align:center}
+.about-section-nav{justify-content:center}
+@media(max-width:640px){.about-restored #sectors summary{padding:18px 14px;font-size:16px;grid-template-columns:24px minmax(0,1fr) 24px;gap:8px}}
