@@ -78,7 +78,7 @@ const Navbar = () => {
 
             <div className="flex shrink-0 items-center gap-1.25 rounded-full bg-white p-1.5 md:p-2 shadow-lg">
               <Link href="/explore.html" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 rounded-full border border-dashed border-transparent px-3 md:px-5 py-2.5 text-sm md:text-base text-nowrap transition-all duration-300 hover:text-white">
-                Explore
+                Explore City
               </Link>
             </div>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
         aria-label="Navigation"
       >
         <div className="flex max-h-[70vh] flex-col overflow-y-auto p-3">
-          {[...menuData, { label: 'Explore', route: '/explore.html' }].map((item) => {
+          {[...menuData, { label: 'Explore City', route: '/explore.html' }].map((item) => {
             const active = isRouteActive(item.route)
             return (
               <Link key={'mobile-' + item.route} href={item.route} className={`group text-default-600 hover:text-primary-1 flex items-center p-1.5 text-sm font-medium transition-all ${active ? 'active' : ''}`}>

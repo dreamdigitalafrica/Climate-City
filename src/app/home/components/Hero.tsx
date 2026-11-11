@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import type { CSSProperties } from 'react'
 
 const title = 'Welcome to the Climate City'
@@ -24,7 +23,6 @@ export default function Hero() {
               </span>
             ))}
           </h1>
-          <Link href="/explore.html" className="mt-8 inline-flex items-center justify-center rounded-full bg-primary-1 px-6 py-3 text-base font-medium text-default-950 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">Explore City</Link>
         </div>
       </div>
     </section>

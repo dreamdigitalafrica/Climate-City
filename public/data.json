@@ -19,11 +19,6 @@
           "description": ""
         },
         {
-          "src": "assets/new/ribbon-gallery.webp",
-          "title": "Ribbon Gallery",
-          "description": ""
-        },
-        {
           "src": "assets/museum-1.webp",
           "title": "Grand arrival atrium",
           "description": ""
@@ -34,11 +29,6 @@
           "description": ""
         },
         {
-          "src": "assets/museum-3.webp",
-          "title": "Contemporary art hall",
-          "description": ""
-        },
-        {
           "src": "assets/museum-4.webp",
           "title": "Immersive storytelling theatre",
           "description": ""
@@ -46,11 +36,6 @@
         {
           "src": "assets/museum-5.webp",
           "title": "Living craft studio",
-          "description": ""
-        },
-        {
-          "src": "assets/museum-6.webp",
-          "title": "Research library",
           "description": ""
         },
         {
@@ -76,21 +61,6 @@
         {
           "src": "assets/hospital-2.webp",
           "title": "Patient suite",
-          "description": ""
-        },
-        {
-          "src": "assets/hospital-3.webp",
-          "title": "Consultation rooms",
-          "description": ""
-        },
-        {
-          "src": "assets/hospital-4.webp",
-          "title": "Diagnostic centre",
-          "description": ""
-        },
-        {
-          "src": "assets/hospital-5.webp",
-          "title": "Rehabilitation studio",
           "description": ""
         },
         {
@@ -129,28 +99,13 @@
           "description": ""
         },
         {
-          "src": "assets/schools-2.webp",
-          "title": "Library",
-          "description": ""
-        },
-        {
           "src": "assets/schools-3.webp",
           "title": "Science laboratory",
           "description": ""
         },
         {
-          "src": "assets/schools-4.webp",
-          "title": "Digital studio",
-          "description": ""
-        },
-        {
           "src": "assets/schools-5.webp",
           "title": "Early-years classroom",
-          "description": ""
-        },
-        {
-          "src": "assets/schools-6.webp",
-          "title": "Assembly hall",
           "description": ""
         }
       ],
@@ -177,21 +132,6 @@
           "src": "assets/sports-3.webp",
           "title": "Aquatics hall",
           "description": ""
-        },
-        {
-          "src": "assets/sports-4.webp",
-          "title": "Fitness studio",
-          "description": ""
-        },
-        {
-          "src": "assets/sports-5.webp",
-          "title": "Movement studio",
-          "description": ""
-        },
-        {
-          "src": "assets/sports-6.webp",
-          "title": "Players lounge",
-          "description": ""
         }
       ],
       "description": "Shared facilities for sport, recreation and active daily life."
@@ -206,11 +146,6 @@
         {
           "src": "assets/new/courtyard-exchange.webp",
           "title": "Courtyard Exchange",
-          "description": ""
-        },
-        {
-          "src": "assets/new/courtyard-shops.webp",
-          "title": "Shaded shopping streets",
           "description": ""
         },
         {
@@ -231,16 +166,6 @@
         {
           "src": "assets/market-3.webp",
           "title": "Food court",
-          "description": ""
-        },
-        {
-          "src": "assets/market-4.webp",
-          "title": "Demonstration kitchen",
-          "description": ""
-        },
-        {
-          "src": "assets/market-5.webp",
-          "title": "Retail courtyard",
           "description": ""
         },
         {
@@ -274,21 +199,6 @@
           "description": ""
         },
         {
-          "src": "assets/diplomatic-3.webp",
-          "title": "Exchange pavilion",
-          "description": ""
-        },
-        {
-          "src": "assets/diplomatic-4.webp",
-          "title": "Research library",
-          "description": ""
-        },
-        {
-          "src": "assets/diplomatic-5.webp",
-          "title": "Delegates lounge",
-          "description": ""
-        },
-        {
           "src": "assets/diplomatic-6.webp",
           "title": "Peace courtyard",
           "description": ""
@@ -309,28 +219,13 @@
           "description": ""
         },
         {
-          "src": "assets/wildlife-2.webp",
-          "title": "Ecology gallery",
-          "description": ""
-        },
-        {
           "src": "assets/wildlife-3.webp",
           "title": "Observation hide",
           "description": ""
         },
         {
-          "src": "assets/wildlife-4.webp",
-          "title": "Learning studio",
-          "description": ""
-        },
-        {
           "src": "assets/wildlife-5.webp",
           "title": "Habitat boardwalk",
-          "description": ""
-        },
-        {
-          "src": "assets/wildlife-6.webp",
-          "title": "Lookout terrace",
           "description": ""
         }
       ],
@@ -356,21 +251,6 @@
         {
           "src": "assets/hotel-3.webp",
           "title": "Signature restaurant",
-          "description": ""
-        },
-        {
-          "src": "assets/hotel-4.webp",
-          "title": "Wellness sanctuary",
-          "description": ""
-        },
-        {
-          "src": "assets/hotel-5.webp",
-          "title": "Evening lounge",
-          "description": ""
-        },
-        {
-          "src": "assets/hotel-6.webp",
-          "title": "Garden courtyard",
           "description": ""
         }
       ],
@@ -402,21 +282,6 @@
           "src": "assets/landscape-3.webp",
           "title": "Rain garden",
           "description": ""
-        },
-        {
-          "src": "assets/landscape-4.webp",
-          "title": "Sculpture garden",
-          "description": ""
-        },
-        {
-          "src": "assets/landscape-5.webp",
-          "title": "Botanical walk",
-          "description": ""
-        },
-        {
-          "src": "assets/landscape-6.webp",
-          "title": "Sunset overlook",
-          "description": ""
         }
       ],
       "description": "Shaded paths, gardens and water systems planned as part of everyday city life."
@@ -439,23 +304,8 @@
           "description": ""
         },
         {
-          "src": "assets/waterfront-3.webp",
-          "title": "Water garden",
-          "description": ""
-        },
-        {
           "src": "assets/waterfront-4.webp",
           "title": "Arrival jetty",
-          "description": ""
-        },
-        {
-          "src": "assets/waterfront-5.webp",
-          "title": "Sunset pavilion",
-          "description": ""
-        },
-        {
-          "src": "assets/waterfront-6.webp",
-          "title": "Pool terrace",
           "description": ""
         }
       ],
@@ -479,23 +329,8 @@
           "description": ""
         },
         {
-          "src": "assets/station-3.webp",
-          "title": "Passenger lounge",
-          "description": ""
-        },
-        {
           "src": "assets/station-4.webp",
           "title": "Garden concourse",
-          "description": ""
-        },
-        {
-          "src": "assets/station-5.webp",
-          "title": "Station café",
-          "description": ""
-        },
-        {
-          "src": "assets/station-6.webp",
-          "title": "Civic forecourt",
           "description": ""
         }
       ],
@@ -511,6 +346,11 @@
         {
           "src": "assets/homes-1.webp",
           "title": "Homes & Neighbourhoods",
+          "description": ""
+        },
+        {
+          "src": "assets/landscape-2.webp",
+          "title": "Shaded neighbourhood walk",
           "description": ""
         }
       ],
@@ -547,6 +387,11 @@
           "src": "assets/food-1.webp",
           "title": "Food & Agriculture",
           "description": ""
+        },
+        {
+          "src": "assets/market-1.webp",
+          "title": "Fresh produce market",
+          "description": ""
         }
       ],
       "description": "Connecting local producers, food markets and resource-conscious growing."
@@ -561,6 +406,11 @@
         {
           "src": "assets/new/business-district.webp",
           "title": "Business District",
+          "description": ""
+        },
+        {
+          "src": "assets/new/courtyard-exchange.webp",
+          "title": "Courtyard Exchange",
           "description": ""
         }
       ]
