@@ -1,6 +1,6 @@
 'use client'
 
-import contactHeroImage from '@/assets/images/hero/contact-hero-image.jpg'
+import contactHeroImage from '../../../../../public/assets/new/contact-green-avenue.webp'
 import heroLeftShape from '@/assets/images/icons/hero-left-shape.svg'
 import heroRightShape from '@/assets/images/icons/hero-right-shape.svg'
 import Image from 'next/image'
@@ -9,9 +9,9 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <section className="relative flex flex-col justify-between overflow-hidden pt-10 lg:pt-22">
-      <Image src={contactHeroImage} priority alt="Contact us" className="absolute inset-0 z-0 h-full w-full object-cover" />
+      <Image src={contactHeroImage} priority alt="Tree-lined Climate City avenue with solar-powered homes, cycle lanes and public transport" className="absolute inset-0 z-0 h-full w-full object-cover" />
 
-      <div className="bg-dark/60 absolute inset-0 z-10"></div>
+      <div className="bg-dark/40 absolute inset-0 z-10"></div>
 
       <div className="relative z-20 container flex h-full grow flex-col items-center justify-end pt-16 text-center md:pt-24">
         <div className="mx-auto mb-7.5 max-w-3xl md:mb-10 lg:mb-35">
