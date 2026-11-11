@@ -83,3 +83,8 @@ header .brand-mark{background:transparent!important;border:0!important;box-shado
 #markers .marker.image-label-hit:hover,#markers .marker.image-label-hit:focus-visible{outline:2px solid #7eea57;outline-offset:2px;background:rgba(126,234,87,.12);}
 
 .aerial-locked #zoomIn,.aerial-locked #zoomOut,.aerial-locked #resetView{display:none!important}.aerial-locked #world{touch-action:pan-y;cursor:default}
+
+/* Fixed, uncropped aerial overview; motion belongs only to destination films. */
+.aerial-locked .world-controls{display:none!important}
+.aerial-locked #aerial{transform:none!important;animation:none!important;transition:none!important;filter:none!important;opacity:1!important}
+.aerial-locked .world-vignette{display:none!important}
