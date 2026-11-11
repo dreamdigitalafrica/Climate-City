@@ -1,5 +1,4 @@
 import '@/assets/css/style.css'
-import favicon from '@/assets/images/favicon.png'
 import AppProvidersWrapper from '@/components/wrappers/AppProvidersWrapper'
 import { DEFAULT_PAGE_TITLE } from '@/config/constants'
 import type { Metadata } from 'next'
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
     template: `%s | ${DEFAULT_PAGE_TITLE}`,
     default: DEFAULT_PAGE_TITLE,
   },
-  icons: { icon: favicon.src },
+  icons: { icon: '/climate-city-icon.png', apple: '/assets/logo-green-compact.png' },
   description: 'Climate City is a proposed sustainable community in Nasarawa, Africa, powered by Mikoshel.',
   keywords: ['Climate City', 'Africa', 'sustainable city', 'Mikoshel'],
   authors: [{ name: 'Mikoshel' }],

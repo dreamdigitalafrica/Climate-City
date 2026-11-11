@@ -38,7 +38,7 @@ const Technology = () => {
 
           <div className="flex justify-center md:col-span-6 lg:col-span-5 lg:me-32">
             <div className="w-full">
-              <Image src={technologyImage} loading="eager" alt="Technology Image" className="h-auto w-full object-contain" />
+              <Image src={technologyImage} loading="lazy" alt="Technology Image" className="h-auto w-full object-contain" />
             </div>
           </div>
 
