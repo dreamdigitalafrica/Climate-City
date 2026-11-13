@@ -11,7 +11,7 @@ const ContactForm = () => {
         </div>
 
         <div className="mx-auto max-w-6xl rounded-3xl bg-white p-3.75 md:p-7.5 lg:p-12.5">
-          <form className="grid grid-cols-1 gap-x-7.5 gap-y-7.5 md:grid-cols-2 lg:gap-x-12.5" onSubmit={(e) => {e.preventDefault();const data=new FormData(e.currentTarget);const message=`Climate City enquiry\nName: ${data.get("name")}\nEmail: ${data.get("email")}\nPhone: ${data.get("Phone")}\n${data.get("field")}`;window.location.href="https://wa.me/2347082064914?text="+encodeURIComponent(message)}}>
+          <form className="grid grid-cols-1 gap-x-7.5 gap-y-7.5 md:grid-cols-2 lg:gap-x-12.5" onSubmit={(e) => {e.preventDefault();const data=new FormData(e.currentTarget);const message=`Climate City enquiry\nName: ${data.get("name")}\nEmail: ${data.get("email")}\nPhone: ${data.get("Phone")}\n${data.get("field")}`;window.location.href="mailto:enquires@theclimatecity.com?subject=Climate%20City%20enquiry&body="+encodeURIComponent(message)}}>
             <div className="flex flex-col gap-1.25 md:col-span-2">
               <label htmlFor="name" className="text-default-900 text-sm font-normal md:text-base">
                 What is your full name?
@@ -76,8 +76,9 @@ const ContactForm = () => {
                 type="submit"
                 className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-block cursor-pointer rounded-full border border-dashed border-transparent px-5 py-3.75 font-medium text-nowrap transition-all duration-300 hover:text-white"
               >
-                Continue on WhatsApp
+                Continue to email
               </button>
+              <p className="mt-3 text-sm text-default-600">Opens your email app with your enquiry ready to send.</p>
             </div>
           </form>
         </div>

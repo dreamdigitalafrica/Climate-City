@@ -23,7 +23,7 @@ const locationsData: LocationItemType[] = [
     id: 1,
     title: 'General enquiries',
     image: location1,
-    email: 'Speak with Mikoshel',
+    email: 'enquires@theclimatecity.com',
     phone: '+234 708 206 4914',
     phonelink: '+2347082064914',
     desktopPosition: 'left-[6%] top-[32%]',
@@ -32,7 +32,7 @@ const locationsData: LocationItemType[] = [
     id: 2,
     title: 'Partnership enquiries',
     image: location2,
-    email: 'Speak with Mikoshel',
+    email: 'enquires@theclimatecity.com',
     phone: '+234 708 206 4914',
     phonelink: '+2347082064914',
     desktopPosition: 'left-[36%] top-[8%]',
@@ -41,7 +41,7 @@ const locationsData: LocationItemType[] = [
     id: 3,
     title: 'Investor enquiries',
     image: location3,
-    email: 'Speak with Mikoshel',
+    email: 'enquires@theclimatecity.com',
     phone: '+234 708 206 4914',
     phonelink: '+2347082064914',
     desktopPosition: 'left-[32%] top-[65%]',
@@ -50,7 +50,7 @@ const locationsData: LocationItemType[] = [
     id: 4,
     title: 'Visitor enquiries',
     image: location4,
-    email: 'Speak with Mikoshel',
+    email: 'enquires@theclimatecity.com',
     phone: '+234 708 206 4914',
     phonelink: '+2347082064914',
     desktopPosition: 'left-[68%] top-[68%]',
@@ -86,7 +86,7 @@ const MapLocation = () => {
                         <Image src={item.image} alt={item.title} className="h-full w-full object-cover" />
                       </div>
                       <div className="text-default-800 flex flex-col gap-1 text-sm font-normal">
-                        <Link href="https://wa.me/2347082064914" className="hover:text-primary-1 transition-colors">
+                        <Link href="mailto:enquires@theclimatecity.com" className="hover:text-primary-1 transition-colors">
                           {item.email}
                         </Link>
                         <Link href={`tel:${item.phonelink}`} className="hover:text-primary-1 transition-colors">
@@ -118,7 +118,7 @@ const MapLocation = () => {
                       <Image src={item.image} alt={item.title} className="h-full w-full object-cover" />
                     </div>
                     <div className="text-default-800 flex flex-col gap-1 text-sm font-normal">
-                      <Link href="https://wa.me/2347082064914" className="hover:text-primary-1 transition-colors">
+                      <Link href="mailto:enquires@theclimatecity.com" className="hover:text-primary-1 transition-colors">
                         {item.email}
                       </Link>
                       <Link href={`tel:${item.phonelink}`} className="hover:text-primary-1 transition-colors">

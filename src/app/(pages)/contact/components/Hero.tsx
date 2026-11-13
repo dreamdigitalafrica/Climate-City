@@ -30,8 +30,8 @@ const Hero = () => {
                 <Link href="tel:+2347082064914" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
                   +234 708 206 4914
                 </Link>
-                <Link href="https://wa.me/2347082064914" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
-                  Or send a WhatsApp message
+                <Link href="mailto:enquires@theclimatecity.com" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
+                  enquires@theclimatecity.com
                 </Link>
               </div>
             </div>
@@ -42,8 +42,8 @@ const Hero = () => {
                 <Link href="#enquiry" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
                   Use the enquiry form
                 </Link>
-                <Link href="https://wa.me/2347082064914" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
-                  WhatsApp the team
+                <Link href="mailto:enquires@theclimatecity.com" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
+                  Email the team
                 </Link>
               </div>
             </div>

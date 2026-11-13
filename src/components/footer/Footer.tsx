@@ -33,7 +33,7 @@ const Footer = () => {
                 <p className="text-default-500 mb-3.75 text-base font-normal">Discuss your interest in Climate City.</p>
 
                 <div className="w-full lg:max-w-lg">
-                  <form onSubmit={(event)=>{event.preventDefault();const email=new FormData(event.currentTarget).get("email");window.location.href="https://wa.me/2347082064914?text="+encodeURIComponent("Climate City enquiry. Please contact me at "+email)}} className="border-default-200 focus-within:border-default-800 relative items-center rounded-full border bg-white p-1.5 transition-all md:flex">
+                  <form onSubmit={(event)=>{event.preventDefault();const email=new FormData(event.currentTarget).get("email");window.location.href="mailto:enquires@theclimatecity.com?subject=Climate%20City%20enquiry&body="+encodeURIComponent("Climate City enquiry. Please contact me at "+email)}} className="border-default-200 focus-within:border-default-800 relative items-center rounded-full border bg-white p-1.5 transition-all md:flex">
                     <input name="email" aria-label="Your email address" type="email" required placeholder="Enter your email" className="text-default-700 placeholder:text-default-400 w-full border-0 bg-transparent py-1.5 ps-6 pe-4 text-base outline-none" />
                     <button
                       type="submit"
@@ -96,8 +96,8 @@ const Footer = () => {
               <div className="border-default-200 border-dashed md:border-e md:border-b md:border-b-0 md:py-5 md:pe-5 lg:py-12.5 lg:pe-10">
                 <h3 className="text-default-950 mb-3.75 text-xl font-medium md:mb-5 md:text-3xl lg:mb-6.25">Contact</h3>
                 <div className="flex flex-col gap-y-2.5">
-                  <Link href="https://wa.me/2347082064914" className="text-default-800 hover:text-default-600 font-normal transition-colors">
-                    WhatsApp enquiries
+                  <Link href="mailto:enquires@theclimatecity.com" className="text-default-800 hover:text-default-600 font-normal transition-colors">
+                    enquires@theclimatecity.com
                   </Link>
                   <Link href="tel:+2347082064914" className="text-default-800 hover:text-default-600 font-normal transition-colors">
                     +234 708 206 4914
