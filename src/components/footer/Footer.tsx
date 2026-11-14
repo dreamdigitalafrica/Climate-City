@@ -1,4 +1,5 @@
 'use client'
+import { useEnquiry } from '@/hooks/useEnquiry'
 
 import footerVideoPoster from '@/assets/images/about/footer-video-poster.jpg'
 import leafIcon from '@/assets/images/icons/leaf-icon.svg'
@@ -8,6 +9,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Footer = () => {
+  const {sending,status,submit}=useEnquiry()
   return (
     <footer className="bg-dark relative overflow-hidden pt-15 pb-4 md:pt-25 md:pb-17.5 lg:pt-32.5">
       <div className="absolute inset-0 z-0 overflow-hidden">
@@ -33,15 +35,16 @@ const Footer = () => {
                 <p className="text-default-500 mb-3.75 text-base font-normal">Discuss your interest in Climate City.</p>
 
                 <div className="w-full lg:max-w-lg">
-                  <form onSubmit={(event)=>{event.preventDefault();const email=new FormData(event.currentTarget).get("email");window.location.href="mailto:enquires@theclimatecity.com?subject=Climate%20City%20enquiry&body="+encodeURIComponent("Climate City enquiry. Please contact me at "+email)}} className="border-default-200 focus-within:border-default-800 relative items-center rounded-full border bg-white p-1.5 transition-all md:flex">
+                  <form onSubmit={submit} className="border-default-200 focus-within:border-default-800 relative items-center rounded-full border bg-white p-1.5 transition-all md:flex">
                     <input name="email" aria-label="Your email address" type="email" required placeholder="Enter your email" className="text-default-700 placeholder:text-default-400 w-full border-0 bg-transparent py-1.5 ps-6 pe-4 text-base outline-none" />
                     <button
-                      type="submit"
+                      type="submit" disabled={sending} aria-busy={sending}
                       className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 absolute start-0 top-14 rounded-full border border-dashed border-transparent px-5 py-2.5 text-nowrap transition-all duration-300 hover:text-white md:static"
                     >
-                      Enquire
+                      {sending ? 'Sending…' : 'Enquire'}
                     </button>
-                  </form>
+                  <div className="hidden" aria-hidden="true"><input name="website" tabIndex={-1} autoComplete="off" aria-label="Leave empty" /></div></form>
+                  <p role="status" aria-live="polite" className="mt-4 text-sm text-default-800">{status}</p>
                 </div>
               </div>
             </div>

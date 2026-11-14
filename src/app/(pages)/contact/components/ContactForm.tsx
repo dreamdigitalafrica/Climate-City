@@ -1,6 +1,8 @@
 'use client'
+import { useEnquiry } from '@/hooks/useEnquiry'
 
 const ContactForm = () => {
+  const {sending,status,submit}=useEnquiry()
   return (
     <section id="enquiry" className="bg-default-50 py-20 md:py-25 lg:py-32">
       <div className="container">
@@ -11,7 +13,7 @@ const ContactForm = () => {
         </div>
 
         <div className="mx-auto max-w-6xl rounded-3xl bg-white p-3.75 md:p-7.5 lg:p-12.5">
-          <form className="grid grid-cols-1 gap-x-7.5 gap-y-7.5 md:grid-cols-2 lg:gap-x-12.5" onSubmit={(e) => {e.preventDefault();const data=new FormData(e.currentTarget);const message=`Climate City enquiry\nName: ${data.get("name")}\nEmail: ${data.get("email")}\nPhone: ${data.get("Phone")}\n${data.get("field")}`;window.location.href="mailto:enquires@theclimatecity.com?subject=Climate%20City%20enquiry&body="+encodeURIComponent(message)}}>
+          <form className="grid grid-cols-1 gap-x-7.5 gap-y-7.5 md:grid-cols-2 lg:gap-x-12.5" onSubmit={submit}>
             <div className="flex flex-col gap-1.25 md:col-span-2">
               <label htmlFor="name" className="text-default-900 text-sm font-normal md:text-base">
                 What is your full name?
@@ -73,14 +75,15 @@ const ContactForm = () => {
 
             <div className="text-start">
               <button
-                type="submit"
+                type="submit" disabled={sending} aria-busy={sending}
                 className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-block cursor-pointer rounded-full border border-dashed border-transparent px-5 py-3.75 font-medium text-nowrap transition-all duration-300 hover:text-white"
               >
-                Continue to email
+                {sending ? 'Sending…' : 'Send enquiry'}
               </button>
-              <p className="mt-3 text-sm text-default-600">Opens your email app with your enquiry ready to send.</p>
+              <p className="mt-3 text-sm text-default-600">Sent securely to enquires@theclimatecity.com.</p>
             </div>
-          </form>
+          <div className="hidden" aria-hidden="true"><input name="website" tabIndex={-1} autoComplete="off" aria-label="Leave empty" /></div></form>
+                  <p role="status" aria-live="polite" className="mt-4 text-sm text-default-800">{status}</p>
         </div>
       </div>
     </section>

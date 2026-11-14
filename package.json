@@ -12,6 +12,7 @@
   "dependencies": {
     "@iconify/react": "^6.0.2",
     "next": "^16.2.9",
+    "nodemailer": "^10.5.0",
     "preline": "4.0.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
