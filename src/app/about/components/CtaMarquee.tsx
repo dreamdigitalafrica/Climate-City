@@ -29,7 +29,7 @@ const CtaMarquee = () => {
       <div className="container text-center">
         <div className="mx-auto mb-15 flex max-w-5xl flex-col items-center lg:mb-32.5">
           <h2 className="text-default-950 mb-2.5 text-3xl leading-tight font-medium md:text-5xl lg:text-5xl">Partner with Climate City</h2>
-          <p className="text-default-500 mb-3.75 max-w-lg text-base leading-relaxed font-normal md:mb-6 lg:mb-10">Discuss development, operations or local enterprise with Mikoshel.</p>
+          <p className="text-default-500 mb-3.75 max-w-lg text-base leading-relaxed font-normal md:mb-6 lg:mb-10">Discuss development, operations or local enterprise with Climate City.</p>
           <Link href="/contact" className="bg-primary-1 hover:bg-default-800 hover:border-primary-1 text-default-800 inline-block rounded-full border border-dashed border-transparent px-5 py-2.5 text-nowrap transition-all duration-300 hover:text-white md:py-3.75">
             Start a conversation
           </Link>

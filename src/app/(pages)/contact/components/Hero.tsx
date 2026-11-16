@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative z-20 container flex h-full grow flex-col items-center justify-end pt-16 text-center md:pt-24">
         <div className="mx-auto mb-7.5 max-w-3xl md:mb-10 lg:mb-35">
           <h1 className="mb-2.5 text-4xl leading-[1.1] font-medium text-white md:text-[64px]">Contact us</h1>
-          <p className="text-md mx-auto max-w-lg leading-relaxed font-normal text-white md:mb-5 md:text-base">Speak with Mikoshel about partnerships, investment or the proposed city.</p>
+          <p className="text-md mx-auto max-w-lg leading-relaxed font-normal text-white md:mb-5 md:text-base">Speak with Climate City about partnerships, investment or the proposed city.</p>
         </div>
 
         <div className="bg-default-50 border-default-200/50 relative mx-auto mt-auto rounded-t-xl border border-b-0 px-3.75 pt-3.75 shadow-lg md:w-2xl md:px-7 md:pt-6 lg:w-6xl lg:pt-7">
@@ -25,7 +25,7 @@ const Hero = () => {
 
           <div className="divide-default-300 grid grid-cols-1 items-start gap-5 divide-dashed md:grid-cols-3 md:gap-12.5 md:divide-x">
             <div className="flex flex-col items-center gap-y-3.75 text-center md:gap-y-5 lg:gap-y-10">
-              <h3 className="text-default-900 text-xl font-medium md:mb-3.75 lg:text-[22px]">Call Mikoshel</h3>
+              <h3 className="text-default-900 text-xl font-medium md:mb-3.75 lg:text-[22px]">Call Climate City</h3>
               <div className="flex flex-col gap-1.5">
                 <Link href="tel:+2347082064914" className="text-default-600 hover:text-default-800 text-base font-normal underline-offset-4 transition-colors hover:underline">
                   +234 708 206 4914

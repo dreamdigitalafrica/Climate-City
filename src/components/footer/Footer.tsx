@@ -51,8 +51,8 @@ const Footer = () => {
 
             <p className="text-default-500 text-md mt-17.5 font-medium md:mt-7.5 md:text-base lg:mt-17.5">
               Powered by{' '}
-              <Link href="/mikoshel" target="_blank" className="text-default-800 hover:text-default-500 font-medium transition-colors">
-                Mikoshel
+              <Link href="/about" target="_blank" className="text-default-800 hover:text-default-500 font-medium transition-colors">
+                Climate City
               </Link>
             </p>
           </div>
@@ -110,7 +110,7 @@ const Footer = () => {
 
               <div className="md:py-5 md:ps-5 md:pt-5 lg:py-12.5 lg:ps-10 lg:pt-12.5">
                 <h3 className="text-default-950 mb-3.75 text-xl font-medium md:mb-5 md:text-3xl lg:mb-6.25">Discover</h3>
-                <div className="text-default-900 flex flex-col gap-2.5"><Link href="/mikoshel">About Mikoshel</Link><Link href="/leadership">Leadership</Link><Link href="/contact">Investor enquiries</Link></div>
+                <div className="text-default-900 flex flex-col gap-2.5"><Link href="/about">About Climate City</Link><Link href="/leadership">Leadership</Link><Link href="/contact">Investor enquiries</Link></div>
               </div>
             </div>
           </div>

@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     default: DEFAULT_PAGE_TITLE,
   },
   icons: { icon: '/climate-city-icon.png', apple: '/assets/logo-green-compact.png' },
-  description: 'Climate City is a proposed sustainable community in Nasarawa, Africa, powered by Mikoshel.',
-  keywords: ['Climate City', 'Africa', 'sustainable city', 'Mikoshel'],
-  authors: [{ name: 'Mikoshel' }],
+  description: 'Climate City is a proposed sustainable community in Nasarawa, Africa, powered by Climate City.',
+  keywords: ['Climate City', 'Africa', 'sustainable city', 'Climate City'],
+  authors: [{ name: 'Climate City' }],
   robots: 'index, follow',
 }
 
