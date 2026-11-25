@@ -25,7 +25,7 @@ export default function Team({ standalone = false }: { standalone?: boolean }) {
     <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
      {teamMembersData.map(item=><article key={item.id} className="team-reference-card relative rounded-3xl bg-[#222222] p-6 pb-16 md:p-7 md:pb-16">
       <button type="button" disabled={!item.bio} onClick={e=>open(item,e.currentTarget)} aria-haspopup={item.bio ? 'dialog' : undefined} aria-label={item.bio ? 'Read about '+item.name : 'CTO portrait'} className="group block w-full text-left rounded-xl focus-visible:outline-2 focus-visible:outline-offset-8 focus-visible:outline-primary-1 disabled:cursor-default">
-       <div className="aspect-square overflow-hidden rounded-2xl bg-default-800"><Image src={item.image} width={600} height={600} alt={item.name || 'Chief Technology Officer'} style={{objectPosition:'50% 0%'}} className="h-full w-full object-cover" /></div>
+       <div className="aspect-square overflow-hidden rounded-2xl bg-default-800"><Image src={item.image} width={600} height={600} alt={item.name || 'Chief Technology Officer'} style={{objectPosition:'50% 0%', ...(item.id === 3 ? {transform:'scale(1.65)',transformOrigin:'50% 0%'} : {})}} className="h-full w-full object-cover" /></div>
        {item.name && <h3 className="mt-5 text-xl font-medium text-white">{item.name}</h3>}
        <p className="mt-2 text-base leading-snug text-white/60">{item.role}</p>
       </button>
