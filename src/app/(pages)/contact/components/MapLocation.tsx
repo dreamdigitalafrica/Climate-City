@@ -4,7 +4,7 @@ import location1 from '@/assets/images/blog/location-01.jpg'
 import location2 from '@/assets/images/blog/location-02.jpg'
 import location3 from '@/assets/images/blog/location-03.jpg'
 import location4 from '@/assets/images/blog/location-04.jpg'
-import mapImage from '@/assets/images/blog/map-image.png'
+import mapImage from '@/assets/images/blog/climate-city-line-map.webp'
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 
@@ -68,7 +68,7 @@ const MapLocation = () => {
         </div>
 
         <div className="relative mx-auto hidden w-full max-w-6xl lg:block">
-          <Image src={mapImage} alt="Template map placeholder; enquiry categories are not office locations" className="pointer-events-none h-auto w-full select-none" />
+          <Image src={mapImage} alt="Illustrated Climate City concept map with districts, lake and city landmarks" sizes="(min-width: 1280px) 1152px, 100vw" className="pointer-events-none h-auto w-full select-none" />
 
           <div className="absolute inset-0">
             {locationsData.map((item) => (
@@ -101,7 +101,7 @@ const MapLocation = () => {
           </div>
         </div>
 
-        <Image src={mapImage} alt="Template map placeholder; enquiry categories are not office locations" className="pointer-events-none block h-auto w-full select-none lg:hidden" />
+        <Image src={mapImage} alt="Illustrated Climate City concept map with districts, lake and city landmarks" sizes="100vw" className="pointer-events-none block h-auto w-full select-none lg:hidden" />
 
         <div className="mt-8 block md:mt-12 lg:hidden">
           <div className="grid grid-cols-1 justify-center justify-items-center gap-6.25 md:grid-cols-3">
